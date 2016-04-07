@@ -5,7 +5,7 @@ from venue import *
 
 fout = sys.stdout
 
-title_format = '<a href="{link}">{name}.</a>'
+title_format = '<a href="{link}">{name}</a>'
 author_format = '<a href="{link}"><span class="author">{name}</span></a>'
 venue_format = '<i>{name} ({abr})</i>, {year}<br>'
 

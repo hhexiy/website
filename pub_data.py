@@ -20,6 +20,7 @@ pubs.append({
     'index': '1602.02181',
     'type': 'arxiv',
     'pdf': 'http://arxiv.org/abs/1602.02181',
+    'poster': 'aia-poster-nipsws2015.pdf',
   })
 
 pubs.append({
@@ -39,6 +40,7 @@ pubs.append({
     'venue': 'emnlp',
     'type': 'conference',
     'pdf': 'papers/2015_simtrans_rewrite.pdf',
+    'slides': 'papers/emnlp15_slides.pdf',
   })
 
 pubs.append({
@@ -159,7 +161,9 @@ pubs.append({
     'year': '2011',
     'venue': 'cvpr',
     'type': 'conference',
-    'pdf': 'papers/srgpr.pdf'
+    'pdf': 'papers/srgpr.pdf',
+    'slides': 'presentation/srgpr_slides.pdf',
+    'code': 'code/matlab_srgpr.zip',
   })
 
 pubs.append({
@@ -170,6 +174,7 @@ pubs.append({
     'venue': 'icpr',
     'type': 'conference',
     'pdf': 'papers/rcsvm.pdf',
+    'poster': 'presentation/rcsvm_poster.pdf',
     'code': 'code/rcsvm_matlab.zip',
   })
 
