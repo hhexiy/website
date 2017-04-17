@@ -19,7 +19,7 @@ pubs.append({
     'year': '2016',
     'venue': 'icml',
     'type': 'conference',
-    'pdf': 'papers/2016_icml_opponent.pdf',
+    'pdf': 'docs/papers/2016_icml_opponent.pdf',
     'code': 'https://github.com/hhexiy/opponent',
   })
 
@@ -30,7 +30,7 @@ pubs.append({
     'year': '2016',
     'venue': 'naacl',
     'type': 'conference',
-    'pdf': 'papers/2016_naacl_interpretese.pdf',
+    'pdf': 'docs/papers/2016_naacl_interpretese.pdf',
     'code': 'https://github.com/hhexiy/interpretese',
   })
 
@@ -72,8 +72,8 @@ pubs.append({
     'year': '2015',
     'venue': 'emnlp',
     'type': 'conference',
-    'pdf': 'papers/2015_simtrans_rewrite.pdf',
-    'slides': 'papers/emnlp15_slides.pdf',
+    'pdf': 'docs/papers/2015_simtrans_rewrite.pdf',
+    'slides': 'docs/papers/emnlp15_slides.pdf',
   })
 
 pubs.append({
@@ -114,8 +114,8 @@ pubs.append({
     'year': '2014',
     'venue': 'slt',
     'type': 'conference',
-    'pdf': 'papers/paper-slt.pdf',
-    'poster': 'presentation/tsl-poster-3.pdf',
+    'pdf': 'docs/papers/paper-slt.pdf',
+    'poster': 'docs/presentation/tsl-poster-3.pdf',
   })
 
 pubs.append({
@@ -125,8 +125,8 @@ pubs.append({
     'year': '2014',
     'venue': 'nips',
     'type': 'conference',
-    'pdf': 'papers/ilp-bb.pdf',
-    'poster': 'presentation/ilp-bb-poster-nips2014.pdf',
+    'pdf': 'docs/papers/ilp-bb.pdf',
+    'poster': 'docs/presentation/ilp-bb-poster-nips2014.pdf',
     'code': 'https://github.com/hhexiy/scip-dagger',
   })
 
@@ -137,7 +137,7 @@ pubs.append({
     'year': '2014',
     'venue': 'emnlp',
     'type': 'conference',
-    'pdf': 'papers/2014_emnlp_simtrans.pdf',
+    'pdf': 'docs/papers/2014_emnlp_simtrans.pdf',
     'talk': 'https://youtu.be/hVoxXO3F468',
   })
 
@@ -148,9 +148,9 @@ pubs.append({
     'year': '2013',
     'venue': 'emnlp',
     'type': 'conference',
-    'pdf': 'papers/depFeat.pdf',
-    'slides': 'presentation/depFeat_slides.pdf',
-    'screencast': 'presentation/depFeat_screencast.mp5',
+    'pdf': 'docs/papers/depFeat.pdf',
+    'slides': 'docs/presentation/depFeat_slides.pdf',
+    'screencast': 'docs/presentation/depFeat_screencast.mp5',
   })
 
 pubs.append({
@@ -160,8 +160,8 @@ pubs.append({
     'year': '2012',
     'venue': 'nips',
     'type': 'conference',
-    'pdf': 'papers/dynafea_im.pdf',
-    'poster': 'presentation/dynafea_im_poster.pdf',
+    'pdf': 'docs/papers/dynafea_im.pdf',
+    'poster': 'docs/presentation/dynafea_im_poster.pdf',
   })
 
 pubs.append({
@@ -171,7 +171,7 @@ pubs.append({
     'year': '2012',
     'venue': 'emnlp',
     'type': 'conference',
-    'pdf': 'papers/qb.pdf'
+    'pdf': 'docs/papers/qb.pdf'
   })
 
 pubs.append({
@@ -182,9 +182,9 @@ pubs.append({
     'venue': 'icml',
     'ws': 'inferning',
     'type': 'workshop',
-    'pdf': 'papers/dynafea_ws.pdf',
-    'slides': 'presentation/dynafea_slides.pdf',
-    'poster': 'presentation/dynafea_poster.pdf',
+    'pdf': 'docs/papers/dynafea_ws.pdf',
+    'slides': 'docs/presentation/dynafea_slides.pdf',
+    'poster': 'docs/presentation/dynafea_poster.pdf',
   })
 
 pubs.append({
@@ -194,8 +194,8 @@ pubs.append({
     'year': '2011',
     'venue': 'cvpr',
     'type': 'conference',
-    'pdf': 'papers/srgpr.pdf',
-    'slides': 'presentation/srgpr_slides.pdf',
+    'pdf': 'docs/papers/srgpr.pdf',
+    'slides': 'docs/presentation/srgpr_slides.pdf',
     'code': 'code/matlab_srgpr.zip',
   })
 
@@ -206,8 +206,8 @@ pubs.append({
     'year': '2010',
     'venue': 'icpr',
     'type': 'conference',
-    'pdf': 'papers/rcsvm.pdf',
-    'poster': 'presentation/rcsvm_poster.pdf',
+    'pdf': 'docs/papers/rcsvm.pdf',
+    'poster': 'docs/presentation/rcsvm_poster.pdf',
     'code': 'code/rcsvm_matlab.zip',
   })
 
