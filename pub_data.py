@@ -1,6 +1,29 @@
 pubs = []
 
 pubs.append({
+    'bib': 'chang2016credit',
+    'title': 'Credit Assignment Compiler for Joint Prediction',
+    'author': ('kaiwei', 'me', 'hal', 'langford', 'ross'),
+    'year': '2016',
+    'venue': 'nips',
+    'type': 'conference',
+    'pdf': 'http://arxiv.org/abs/1406.1837',
+    'code': 'https://github.com/JohnLangford/vowpal_wabbit',
+  })
+
+
+pubs.append({
+    'bib': 'he2016opponent',
+    'title': 'Opponent Modeling in Deep Reinforcement Learning',
+    'author': ('me', 'jordan', 'kwok', 'hal'),
+    'year': '2016',
+    'venue': 'icml',
+    'type': 'conference',
+    'pdf': 'papers/2016_icml_opponent.pdf',
+    'code': 'https://github.com/hhexiy/opponent',
+  })
+
+pubs.append({
     'bib': 'he2016interpretese',
     'title': 'Interpretese vs. Translationese: The Uniqueness of Human Strategies in Simultaneous Interpretation',
     'author': ('me', 'jordan', 'hal'),
@@ -21,6 +44,16 @@ pubs.append({
     'type': 'arxiv',
     'pdf': 'http://arxiv.org/abs/1602.02181',
     'poster': 'aia-poster-nipsws2015.pdf',
+  })
+
+pubs.append({
+    'bib': 'chen201620q',
+    'title': 'Object Detection in 20 Questions',
+    'author': ('chenxi', 'me', 'larry'),
+    'year': '2016',
+    'venue': 'wacv',
+    'type': 'conference',
+    'pdf': 'wacv_20q.pdf',
   })
 
 pubs.append({

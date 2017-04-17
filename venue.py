@@ -9,6 +9,7 @@ venue = {
     'cvpr': ('Computer Vision and Pattern Recognition', 'CVPR'),
     'icpr': ('International Conference on Pattern Recognition', 'ICPR'),
     'icml': ('International Conference on Machine Learning', 'ICML'),
+    'wacv': ('Winter Conference on Applications of Computer Vision', 'WACV'),
     # workshop
     'inferning': ('Inferning', 'http://inferning.cs.umass.edu/2012'),
     }

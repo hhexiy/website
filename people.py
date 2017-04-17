@@ -17,4 +17,8 @@ people = {
     'wan-chi': ('Wan-Chi Siu', 'http://www.eie.polyu.edu/~wcsiu/'),
     'ali': ('Ali Ghodsi', 'http://www.math.uwaterloo.ca/~aghodsib/'),
     'mohit': ('Mohit Iyyer', 'http://www.cs.umd.edu/~miyyer/'),
+    'chenxi': ('Xi Chen', 'https://sites.google.com/site/xichenstephen/'),
+    'larry': ('Larry Davis', 'http://www.umiacs.umd.edu/~lsd/'),
+    'kwok': ('Kevin Kwok', ''),
+    'ross': ('St&eacutephane Ross', 'http://www.cs.cmu.edu/~sross1/'),
     }
