@@ -4,7 +4,7 @@ pubs.append({
     'bib': 'he2017symmetric',
     'title': 'Learning Symmetric Collaborative Dialogue Agents with Dynamic Knowledge Graph Embeddings',
     'author': ('me', 'anusha', 'mihail', 'percy'),
-    'year': '201y',
+    'year': '2017',
     'venue': 'acl',
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/1704.07130.pdf',
