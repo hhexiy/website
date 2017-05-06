@@ -1,5 +1,8 @@
 people = {
     'me': ('He He', 'http://www.umiacs.umd.edu/~hhe/'),
+    'anusha': ('Anusha Balakrishnan', ''),
+    'mihail': ('Mihail Eric', 'http://stanford.edu/~meric/'),
+    'percy': ('Percy Liang', 'http://cs.stanford.edu/~pliang'),
     'hal': ('Hal Daum&eacute III', 'http://www.umiacs.umd.edu/~hal/'),
     'jordan': ('Jordan Boyd-Graber', 'http://www.umiacs.umd.edu/~jbd/'),
     'paul': ('Paul Mineiro', 'http://www.machinedlearnings.com/'),

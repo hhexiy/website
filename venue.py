@@ -1,5 +1,6 @@
 venue = {
     'naacl': ('North American Chapter of the Association for Computational Linguistics', 'NAACL'),
+    'acl': ('Association for Computational Linguistics', 'ACL'),
     'arxiv': ('arXiv', ''),
     'emnlp': ('Empirical Methods in Natural Language Processing', 'EMNLP'),
     'fusion': ('International Conference on Information Fusion', 'Fusion'),

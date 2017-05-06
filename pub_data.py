@@ -1,6 +1,17 @@
 pubs = []
 
 pubs.append({
+    'bib': 'he2017symmetric',
+    'title': 'Learning Symmetric Collaborative Dialogue Agents with Dynamic Knowledge Graph Embeddings',
+    'author': ('me', 'anusha', 'mihail', 'percy'),
+    'year': '201y',
+    'venue': 'acl',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/pdf/1704.07130.pdf',
+    'code': 'https://stanfordnlp.github.io/cocoa/',
+  })
+
+pubs.append({
     'bib': 'chang2016credit',
     'title': 'Credit Assignment Compiler for Joint Prediction',
     'author': ('kaiwei', 'me', 'hal', 'langford', 'ross'),
