@@ -85,6 +85,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'docs/papers/2015_simtrans_rewrite.pdf',
     'slides': 'docs/papers/emnlp15_slides.pdf',
+    'code': 'code/rewriter.tgz',
   })
 
 pubs.append({
