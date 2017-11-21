@@ -32,6 +32,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'docs/papers/2016_icml_opponent.pdf',
     'code': 'https://github.com/hhexiy/opponent',
+    'data': 'data/qb_data.tgz',
   })
 
 pubs.append({
