@@ -50,7 +50,7 @@ def gen_bib(pub):
   s = []
   for author in pub['author']:
     if author == 'hal':
-      s.append('Hal {Daum\'{e} III}')
+      s.append("Hal {Daum\\'{e} III}")
     elif author == 'alvin':
       s.append('Alvin {Grissom II}')
     else:
