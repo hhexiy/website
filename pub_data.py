@@ -152,7 +152,7 @@ pubs.append({
     'year': '2014',
     'venue': 'emnlp',
     'type': 'conference',
-    'pdf': 'docs/papers/2014_emnlp_simtrans.pdf',
+    'pdf': 'docs/papers/2014_simtrans.pdf',
     'talk': 'https://youtu.be/hVoxXO3F468',
   })
 
