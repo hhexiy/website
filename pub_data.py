@@ -108,7 +108,8 @@ pubs.append({
     'year': '2015',
     'venue': 'fusion',
     'type': 'conference',
-    'award': ('Tammy L. Blair Award Runner-up', 'http://fusion2015.org/awards/')
+    'award': ('Tammy L. Blair Award Runner-up', 'http://fusion2015.org/awards/'),
+    'pdf': 'http://ieeexplore.ieee.org/document/7266612',
   })
 
 pubs.append({
@@ -118,6 +119,7 @@ pubs.append({
     'year': '2015',
     'venue': 'icc',
     'type': 'conference',
+    'pdf': 'http://ieeexplore.ieee.org/document/7248482/',
   })
 
 pubs.append({
