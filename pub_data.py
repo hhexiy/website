@@ -41,6 +41,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'docs/papers/2016_icml_opponent.pdf',
     'code': 'https://github.com/hhexiy/opponent',
+    'data': 'data/qb_data.tgz',
   })
 
 pubs.append({
@@ -116,7 +117,8 @@ pubs.append({
     'year': '2015',
     'venue': 'fusion',
     'type': 'conference',
-    'award': ('Tammy L. Blair Award Runner-up', 'http://fusion2015.org/awards/')
+    'award': ('Tammy L. Blair Award Runner-up', 'http://fusion2015.org/awards/'),
+    'pdf': 'http://ieeexplore.ieee.org/document/7266612',
   })
 
 pubs.append({
@@ -126,6 +128,7 @@ pubs.append({
     'year': '2015',
     'venue': 'icc',
     'type': 'conference',
+    'pdf': 'http://ieeexplore.ieee.org/document/7248482/',
   })
 
 pubs.append({
@@ -158,7 +161,7 @@ pubs.append({
     'year': '2014',
     'venue': 'emnlp',
     'type': 'conference',
-    'pdf': 'docs/papers/2014_emnlp_simtrans.pdf',
+    'pdf': 'docs/papers/2014_simtrans.pdf',
     'talk': 'https://youtu.be/hVoxXO3F468',
   })
 
