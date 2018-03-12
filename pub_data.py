@@ -1,6 +1,15 @@
 pubs = []
 
 pubs.append({
+    'bib': 'li2018style',
+    'title': 'Delete, Retrieve, Generate: a Simple Approach to Sentiment and Style Transfer',
+    'author': ('juncen', 'robin', 'me', 'percy'),
+    'year': '2018',
+    'venue': 'naacl',
+    'type': 'conference',
+  })
+
+pubs.append({
     'bib': 'he2017symmetric',
     'title': 'Learning Symmetric Collaborative Dialogue Agents with Dynamic Knowledge Graph Embeddings',
     'author': ('me', 'anusha', 'mihail', 'percy'),
