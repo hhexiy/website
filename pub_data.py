@@ -1,12 +1,23 @@
 pubs = []
 
 pubs.append({
+    'bib': 'khandelwal2018lm',
+    'title': 'Sharp Nearby, Fuzzy Far Away: How Neural Language Models Use Context',
+    'author': ('urvashi', 'me', 'peng', 'jurafsky'),
+    'year': '2018',
+    'venue': 'acl',
+    'type': 'conference',
+  })
+
+pubs.append({
     'bib': 'li2018style',
     'title': 'Delete, Retrieve, Generate: a Simple Approach to Sentiment and Style Transfer',
     'author': ('juncen', 'robin', 'me', 'percy'),
     'year': '2018',
     'venue': 'naacl',
     'type': 'conference',
+    'pdf': 'https://arxiv.org/pdf/1804.06437.pdf',
+    'code': 'https://github.com/lijuncen/Sentiment-and-Style-Transfer',
   })
 
 pubs.append({
