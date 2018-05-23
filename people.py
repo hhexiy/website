@@ -1,6 +1,6 @@
 people = {
     'me': ('He He', 'http://www.umiacs.umd.edu/~hhe/'),
-    'urvashi': ('Urvashi Khandelwal', ''),
+    'urvashi': ('Urvashi Khandelwal', 'https://nlp.stanford.edu/~urvashik/'),
     'peng': ('Peng Qi', 'http://qipeng.me'),
     'jurafsky': ('Dan Jurafsky', 'https://web.stanford.edu/~jurafsky/'),
     'juncen': ('Juncen Li', ''),

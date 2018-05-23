@@ -7,6 +7,8 @@ pubs.append({
     'year': '2018',
     'venue': 'acl',
     'type': 'conference',
+    'pdf': 'https://arxiv.org/pdf/1805.04623.pdf',
+    'code': 'https://github.com/urvashik/lm-context-analysis',
   })
 
 pubs.append({
