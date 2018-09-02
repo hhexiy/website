@@ -1,6 +1,29 @@
 pubs = []
 
 pubs.append({
+    'bib': 'he2018decouple',
+    'title': 'Decoupling Strategy and Generation in Negotiation Dialogues',
+    'author': ('me', 'derek', 'anusha', 'percy'),
+    'year': '2018',
+    'venue': 'emnlp',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/abs/1808.09637',
+    'project': 'https://stanfordnlp.github.io/cocoa/',
+  })
+
+pubs.append({
+    'bib': 'choi2018quac',
+    'title': 'QuAC: Question Answering in Context',
+    'author': ('eunsol', 'me', 'mohit', 'mark', 'wentau', 'yejin', 'percy', 'luke'),
+    'equal': ('eunsol', 'me', 'mohit', 'mark'),
+    'year': '2018',
+    'venue': 'emnlp',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/pdf/1808.07036.pdf',
+    'project': 'http://quac.ai',
+  })
+
+pubs.append({
     'bib': 'khandelwal2018lm',
     'title': 'Sharp Nearby, Fuzzy Far Away: How Neural Language Models Use Context',
     'author': ('urvashi', 'me', 'peng', 'jurafsky'),
@@ -30,7 +53,7 @@ pubs.append({
     'venue': 'acl',
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/1704.07130.pdf',
-    'code': 'https://stanfordnlp.github.io/cocoa/',
+    'project': 'https://stanfordnlp.github.io/cocoa/',
   })
 
 pubs.append({
