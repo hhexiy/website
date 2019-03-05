@@ -1,5 +1,6 @@
 people = {
     'me': ('He He', 'http://www.umiacs.umd.edu/~hhe/'),
+    'nanyun': ('Nanyun Peng', 'https://www.cs.jhu.edu/~npeng/'),
     'derek': ('Derek Chen', ''),
     'yejin': ('Yejin Choi', 'https://homes.cs.washington.edu/~yejin/'),
     'luke': ('Luke Zettlemoyer', 'https://www.cs.washington.edu/people/faculty/lsz'),

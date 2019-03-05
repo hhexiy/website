@@ -1,6 +1,16 @@
 pubs = []
 
 pubs.append({
+    'bib': 'he2019pun',
+    'title': 'Pun Generation with Surprise',
+    'author': ('me', 'nanyun', 'percy'),
+    'equal': ('nanyun', 'me'),
+    'year': '2019',
+    'venue': 'naacl',
+    'type': 'conference',
+  })
+
+pubs.append({
     'bib': 'he2018decouple',
     'title': 'Decoupling Strategy and Generation in Negotiation Dialogues',
     'author': ('me', 'derek', 'anusha', 'percy'),
