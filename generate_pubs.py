@@ -101,7 +101,7 @@ def gen_resource(i, pub):
         s.append('[<a href="javascript:copy(div{idx}, bib{idx})">bib</a>]'.format(idx=i))
         bib_div = '<div id="div{idx}"></div><div id="bib{idx}" style="display:none">\n<div class="bib">\n<pre>\n{bibtex}\n</pre>\n</div>\n</div>'.format(idx=i, bibtex=gen_bib(pub))
 
-    for key in ['code', 'data', 'slides', 'poster', 'screencast', 'talk', 'project']:
+    for key in ['code', 'data', 'slides', 'poster', 'screencast', 'talk', 'project', 'codalab']:
         if key in pub:
             s.append('[<a href="{link}">{name}</a>]'.format(link=pub[key], name=key))
 
