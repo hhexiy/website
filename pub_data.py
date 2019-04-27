@@ -8,6 +8,9 @@ pubs.append({
     'year': '2019',
     'venue': 'naacl',
     'type': 'conference',
+    'pdf': 'https://arxiv.org/pdf/1904.06828.pdf',
+    'code': 'https://github.com/hhexiy/pungen',
+    'codalab': 'https://worksheets.codalab.org/worksheets/0x5a7d0fe35b144ad68998d74891a31ed6',
   })
 
 pubs.append({
