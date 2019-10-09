@@ -1,5 +1,7 @@
 people = {
     'me': ('He He', 'http://www.umiacs.umd.edu/~hhe/'),
+    'sheng': ('Sheng Zha', 'https://github.com/szha'),
+    'haohan': ('Haohan Wang', 'https://www.cs.cmu.edu/~haohanw/index.html')
     'nanyun': ('Nanyun Peng', 'https://www.cs.jhu.edu/~npeng/'),
     'derek': ('Derek Chen', ''),
     'yejin': ('Yejin Choi', 'https://homes.cs.washington.edu/~yejin/'),

@@ -1,6 +1,18 @@
 pubs = []
 
 pubs.append({
+    'bib': 'he2019unlearn',
+    'title': 'Unlearn Dataset Bias for Natural Language Inference by Fitting the Residual',
+    'author': ('me', 'sheng', 'haohan'),
+    'year': '2019',
+    'venue': 'emnlp',
+    'type': 'workshop',
+    'ws': 'DeepLo'
+    'pdf': 'https://arxiv.org/pdf/1908.10763.pdf',
+    'code': 'https://github.com/hhexiy/debiased',
+  })
+
+pubs.append({
     'bib': 'he2019pun',
     'title': 'Pun Generation with Surprise',
     'author': ('me', 'nanyun', 'percy'),
@@ -105,13 +117,13 @@ pubs.append({
   })
 
 pubs.append({
-    'bib': 'he2016aia',
+    'bib': 'he2015aia',
     'title': 'Active Information Acquisition',
     'author': ('me', 'paul', 'nikos'),
-    'year': '2016',
-    'venue': 'arxiv',
-    'index': '1602.02181',
-    'type': 'arxiv',
+    'year': '2015',
+    'venue': 'icml',
+    'ws': 'Machine Learning From and For Adaptive User Technologies: From Active Learning & Experimentation to Optimization & Personalization',
+    'type': 'workshop',
     'pdf': 'http://arxiv.org/abs/1602.02181',
     'poster': 'aia-poster-nipsws2015.pdf',
   })

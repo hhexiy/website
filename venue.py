@@ -13,4 +13,5 @@ venue = {
     'wacv': ('Winter Conference on Applications of Computer Vision', 'WACV'),
     # workshop
     'inferning': ('Inferning', 'http://inferning.cs.umass.edu/2012'),
+    'Machine Learning From and For Adaptive User Technologies: From Active Learning & Experimentation to Optimization & Personalization': ('Machine Learning From and For Adaptive User Technologies: From Active Learning & Experimentation to Optimization & Personalization', 'https://sites.google.com/site/mlaihci/'),
     }
