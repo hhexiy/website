@@ -14,7 +14,7 @@ def gen_author(pub):
         symbol = ''
         if author in pub.get('equal', []):
             symbol = '*'
-        name, _ = people[author]
+        name, _ = people.get(author, (author, None))
         if author == 'me':
             name = '\\textbf{{{name}}}'.format(name=name)
         name = name.replace('&eacute', "\\'e")
@@ -32,17 +32,20 @@ def gen_venue(pub):
         return '\\textit{{{venue} Workshop on {name}}}, {year}'.format(venue=abr, name=name, year=pub['year'])
     elif pub['type'] == 'demo':
         return '\\textit{{{name} ({abr}) demo, {year}}}'.format(name=name, abr=abr, year=pub['year'])
+    elif pub['type'] == 'journal':
+        return '\\textit{{{name} ({abr}) {vol}:{page}, {year}}}'.format(name=name, abr=abr, year=pub['year'], vol=pub['vol'], page=pub['page'])
     elif abr:
         return venue_format.format(name=name, abr=abr, year=pub['year'])
     else:
         return '\\textit{{{name}}}, {year}'.format(name=name, year=pub['year'])
 
 pubs = sorted(pubs, key=lambda p: p['year'], reverse=True)
-with open('conference.tex', 'w') as fconf, open('workshop.tex', 'w') as fwork, open('arxiv.tex', 'w') as farxiv:
+with open('conference.tex', 'w') as fconf, open('workshop.tex', 'w') as fwork, open('arxiv.tex', 'w') as farxiv, open('journal.tex', 'w') as fjournal:
     fouts = {
             'conference': fconf,
             'workshop': fwork,
             'arxiv': farxiv,
+            'journal': fjournal,
             }
     for i, pub in enumerate(pubs):
         if pub['type'] in fouts:

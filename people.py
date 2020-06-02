@@ -1,7 +1,11 @@
 people = {
     'me': ('He He', 'http://www.umiacs.umd.edu/~hhe/'),
+    'esin': ('Esin Durmus', 'http://www.cs.cornell.edu/~esindurmus/'),
+    'mona': ('Mona Diab', 'https://www.seas.gwu.edu/mona-diab'),
+    'yulia': ('Yulia Tsvetkov', 'https://www.cs.cmu.edu/~ytsvetko/'),
+    'alan': ('Alan Black', 'http://www.cs.cmu.edu/~awb/'),
     'sheng': ('Sheng Zha', 'https://github.com/szha'),
-    'haohan': ('Haohan Wang', 'https://www.cs.cmu.edu/~haohanw/index.html')
+    'haohan': ('Haohan Wang', 'https://www.cs.cmu.edu/~haohanw/index.html'),
     'nanyun': ('Nanyun Peng', 'https://www.cs.jhu.edu/~npeng/'),
     'derek': ('Derek Chen', ''),
     'yejin': ('Yejin Choi', 'https://homes.cs.washington.edu/~yejin/'),
@@ -12,7 +16,6 @@ people = {
     'urvashi': ('Urvashi Khandelwal', 'https://nlp.stanford.edu/~urvashik/'),
     'peng': ('Peng Qi', 'http://qipeng.me'),
     'jurafsky': ('Dan Jurafsky', 'https://web.stanford.edu/~jurafsky/'),
-    'juncen': ('Juncen Li', ''),
     'robin': ('Robin Jia', 'http://stanford.edu/~robinjia/'),
     'anusha': ('Anusha Balakrishnan', ''),
     'mihail': ('Mihail Eric', 'http://stanford.edu/~meric/'),

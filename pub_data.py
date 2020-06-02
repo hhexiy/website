@@ -1,15 +1,49 @@
 pubs = []
 
 pubs.append({
+    'bib': 'durmus2020feqa',
+    'title': 'FEQA: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization',
+    'author': ('esin', 'me', 'mona'),
+    'year': '2020',
+    'venue': 'acl',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/abs/2005.03754',
+  })
+
+pubs.append({
+    'bib': 'guo2020gluoncv',
+    'title': 'GluonCV and GluonNLP: Deep Learning in Computer Vision and Natural Language Processing',
+    'author': ('Jian Guo', 'me', 'Tong He', 'Leonard Lausen', 'Mu Li', 'Haibin Lin', 'Xingjian Shi', 'Chenguang Wang', 'Junyuan Xie', 'sheng', 'Aston Zhang', 'Hang Zhang', 'Zhi Zhang', 'Zhongyue Zhang', 'Shuai Zheng', 'Yi Zhu'),
+    'year': '2020',
+    'venue': 'jmlr',
+    'vol': '21',
+    'page': '1--7',
+    'type': 'journal',
+    'pdf': 'http://www.jmlr.org/papers/volume21/19-429/19-429.pdf',
+    'code': 'https://gluon-nlp.mxnet.io',
+    })
+
+pubs.append({
     'bib': 'he2019unlearn',
     'title': 'Unlearn Dataset Bias for Natural Language Inference by Fitting the Residual',
     'author': ('me', 'sheng', 'haohan'),
     'year': '2019',
     'venue': 'emnlp',
     'type': 'workshop',
-    'ws': 'DeepLo'
+    'ws': 'deeplo',
     'pdf': 'https://arxiv.org/pdf/1908.10763.pdf',
     'code': 'https://github.com/hhexiy/debiased',
+  })
+
+pubs.append({
+    'bib': 'zhou2019coach',
+    'title': 'A Dynamic Strategy Coach for Effective Negotiation',
+    'author': ('Yiheng Zhou', 'me', 'alan', 'yulia'),
+    'year': '2019',
+    'venue': 'sigdial',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/abs/1909.13426',
+    'code': 'https://github.com/zhouyiheng11/Negotiation-Coach',
   })
 
 pubs.append({
@@ -62,7 +96,7 @@ pubs.append({
 pubs.append({
     'bib': 'li2018style',
     'title': 'Delete, Retrieve, Generate: a Simple Approach to Sentiment and Style Transfer',
-    'author': ('juncen', 'robin', 'me', 'percy'),
+    'author': ('Juncen Li', 'robin', 'me', 'percy'),
     'year': '2018',
     'venue': 'naacl',
     'type': 'conference',
@@ -122,7 +156,7 @@ pubs.append({
     'author': ('me', 'paul', 'nikos'),
     'year': '2015',
     'venue': 'icml',
-    'ws': 'Machine Learning From and For Adaptive User Technologies: From Active Learning & Experimentation to Optimization & Personalization',
+    'ws': 'adaptive',
     'type': 'workshop',
     'pdf': 'http://arxiv.org/abs/1602.02181',
     'poster': 'aia-poster-nipsws2015.pdf',

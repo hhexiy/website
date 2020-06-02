@@ -27,7 +27,7 @@ def gen_author(pub):
         symbol = ''
         if author in pub.get('equal', []):
             symbol = '*'
-        name, link = people[author]
+        name, link = people.get(author, (author, None))
         s.append(author_format.format(link=link, name=name, symbol=symbol))
     return r'%s and %s.<br>' % (', '.join(s[:-1]), s[-1])
 
