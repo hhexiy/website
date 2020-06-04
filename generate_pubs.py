@@ -53,7 +53,7 @@ def gen_bib(pub):
         elif author == 'alvin':
             s.append('Alvin {Grissom II}')
         else:
-            s.append(people[author][0])
+            s.append(people.get(author, (author, None))[0])
     author = ' and '.join(s)
 
     type_ = pub['type']
@@ -91,6 +91,21 @@ def gen_bib(pub):
                     title=pub['title'], \
                     venue=abr, \
                     ws=ws, year=pub['year'])
+    elif type_ == 'journal':
+        bib = """@article{{{name},
+        author={{{author}}},
+        title={{{title}}},
+        journal={{{venue}}},
+        volume={{{volume}}},
+        pages={{{page}}},
+        year={{{year}}}\n}}""".\
+                    format(name=pub['bib'], \
+                    author=author, \
+                    title=pub['title'], \
+                    venue=abr, \
+                    volume=pub['vol'],
+                    page=pub['page'],
+                    year=pub['year'])
 
     return bib
 
