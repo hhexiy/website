@@ -123,6 +123,7 @@ def gen_resource(i, pub):
     return '%s<br>\n%s' % ('\n'.join(s), bib_div if bib_div else '')
 
 curr_year = None
+pubs = sorted(pubs, key=lambda x: x['year'], reverse=True)
 for i, pub in enumerate(pubs):
     if pub['year'] != curr_year:
         fout.write('<p><b>%s</b></p>\n' % pub['year'])
