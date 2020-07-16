@@ -17,5 +17,6 @@ venue = {
     'inferning': ('Inferning', 'http://inferning.cs.umass.edu/2012'),
     'adaptive': ('Machine Learning From and For Adaptive User Technologies: From Active Learning & Experimentation to Optimization & Personalization', 'https://sites.google.com/site/mlaihci/'),
     # journal
-    'jmlr': ('Journal of Machine Learning Research', 'JMLR')
+    'jmlr': ('Journal of Machine Learning Research', 'JMLR'),
+    'tacl': ('Transaction of Association for Computational Linguistics', 'TACL'),
 }

@@ -1,6 +1,19 @@
 pubs = []
 
 pubs.append({
+    'bib': 'tu2020empirical',
+    'title': 'An Empirical Study on Robustness to Spurious Correlations using Pre-trained Language Models',
+    'author': ('lifu', 'Garima Lalwani', 'spandana', 'me'),
+    'year': '2020',
+    'venue': 'tacl',
+    'type': 'journal',
+    'vol': '',
+    'page': '',
+    'pdf': 'https://arxiv.org/abs/2007.06778',
+    'code': 'https://github.com/lifu-tu/Study-NLP-Robustness',
+  })
+
+pubs.append({
     'bib': 'durmus2020feqa',
     'title': 'FEQA: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization',
     'author': ('esin', 'me', 'mona'),
@@ -8,6 +21,8 @@ pubs.append({
     'venue': 'acl',
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2005.03754',
+    'code': 'https://github.com/esdurmus/summary-faithfulness',
+    'talk': 'https://slideslive.com/38929353/feqa-a-question-answering-evaluation-framework-for-faithfulness-assessment-in-abstractive-summarization',
   })
 
 pubs.append({
@@ -20,7 +35,7 @@ pubs.append({
     'page': '1--7',
     'type': 'journal',
     'pdf': 'http://www.jmlr.org/papers/volume21/19-429/19-429.pdf',
-    'code': 'https://gluon-nlp.mxnet.io',
+    'project': 'https://gluon-nlp.mxnet.io',
     })
 
 pubs.append({
@@ -36,17 +51,6 @@ pubs.append({
   })
 
 pubs.append({
-    'bib': 'zhou2019coach',
-    'title': 'A Dynamic Strategy Coach for Effective Negotiation',
-    'author': ('Yiheng Zhou', 'me', 'alan', 'yulia'),
-    'year': '2019',
-    'venue': 'sigdial',
-    'type': 'conference',
-    'pdf': 'https://arxiv.org/abs/1909.13426',
-    'code': 'https://github.com/zhouyiheng11/Negotiation-Coach',
-  })
-
-pubs.append({
     'bib': 'he2019pun',
     'title': 'Pun Generation with Surprise',
     'author': ('me', 'nanyun', 'percy'),
@@ -57,6 +61,29 @@ pubs.append({
     'pdf': 'https://arxiv.org/pdf/1904.06828.pdf',
     'code': 'https://github.com/hhexiy/pungen',
     'codalab': 'https://worksheets.codalab.org/worksheets/0x5a7d0fe35b144ad68998d74891a31ed6',
+  })
+
+pubs.append({
+    'bib': 'rodriguez2019quizbowl',
+    'title': 'Quizbowl: The Case for Incremental Question Answering',
+    'author': ('Petro Rodriguez', 'Shi Feng', 'mohit', 'me', 'jordan'),
+    'year': '2019',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '1904.04792',
+    'pdf': 'https://arxiv.org/abs/1904.04792',
+  })
+
+
+pubs.append({
+    'bib': 'zhou2019coach',
+    'title': 'A Dynamic Strategy Coach for Effective Negotiation',
+    'author': ('Yiheng Zhou', 'me', 'alan', 'yulia'),
+    'year': '2019',
+    'venue': 'sigdial',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/abs/1909.13426',
+    'code': 'https://github.com/zhouyiheng11/Negotiation-Coach',
   })
 
 pubs.append({
@@ -269,7 +296,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'docs/papers/depFeat.pdf',
     'slides': 'docs/presentation/depFeat_slides.pdf',
-    'screencast': 'docs/presentation/depFeat_screencast.mp5',
+    'talk': 'docs/presentation/depFeat_screencast.mp5',
   })
 
 pubs.append({

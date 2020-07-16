@@ -1,5 +1,7 @@
 people = {
     'me': ('He He', 'http://www.umiacs.umd.edu/~hhe/'),
+    'spandana': ('Spandana Gella', 'https://spandanagella.com'),
+    'lifu': ('Lifu Tu', 'https://ttic.uchicago.edu/~lifu/'),
     'esin': ('Esin Durmus', 'http://www.cs.cornell.edu/~esindurmus/'),
     'mona': ('Mona Diab', 'https://www.seas.gwu.edu/mona-diab'),
     'yulia': ('Yulia Tsvetkov', 'https://www.cs.cmu.edu/~ytsvetko/'),
