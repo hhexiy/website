@@ -7,6 +7,7 @@ fout = sys.stdout
 
 title_format = '<a href="{link}">{name}</a>'
 author_format = '<a href="{link}"><span class="author">{name}</span></a>{symbol}'
+author_no_link_format = '<span class="author">{name}</span>{symbol}'
 venue_format = '<i>{name} ({abr})</i>, {year}<br>'
 
 def gen_title(pub):
@@ -28,7 +29,10 @@ def gen_author(pub):
         if author in pub.get('equal', []):
             symbol = '*'
         name, link = people.get(author, (author, None))
-        s.append(author_format.format(link=link, name=name, symbol=symbol))
+        if not link:
+            s.append(author_no_link_format.format(name=name, symbol=symbol))
+        else:
+            s.append(author_format.format(link=link, name=name, symbol=symbol))
     return r'%s and %s.<br>' % (', '.join(s[:-1]), s[-1])
 
 def gen_venue(pub):

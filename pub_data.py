@@ -1,13 +1,32 @@
 pubs = []
 
 pubs.append({
+    'bib': 'padmakumar2021unsupervised',
+    'title': 'Unsupervised Extractive Summarization with Pointwise Mutual Information',
+    'author': ('vishakh', 'me'),
+    'year': '2021',
+    'venue': 'eacl',
+    'type': 'conference',
+  })
+
+pubs.append({
+    'bib': 'pang2021text',
+    'title': 'Text Generation by Learning from Off-policy Demonstrations',
+    'author': ('richard', 'me'),
+    'year': '2021',
+    'venue': 'iclr',
+    'type': 'conference',
+    'pdf': 'https://openreview.net/pdf?id=RovX-uQ1Hua',
+  })
+
+pubs.append({
     'bib': 'tu2020empirical',
     'title': 'An Empirical Study on Robustness to Spurious Correlations using Pre-trained Language Models',
     'author': ('lifu', 'Garima Lalwani', 'spandana', 'me'),
     'year': '2020',
     'venue': 'tacl',
     'type': 'journal',
-    'vol': '',
+    'vol': '8',
     'page': '',
     'pdf': 'https://arxiv.org/abs/2007.06778',
     'code': 'https://github.com/lifu-tu/Study-NLP-Robustness',
@@ -21,7 +40,7 @@ pubs.append({
     'venue': 'acl',
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2005.03754',
-    'code': 'https://github.com/esdurmus/summary-faithfulness',
+    'code': 'https://github.com/esdurmus/feqa',
     'talk': 'https://slideslive.com/38929353/feqa-a-question-answering-evaluation-framework-for-faithfulness-assessment-in-abstractive-summarization',
   })
 
@@ -239,7 +258,6 @@ pubs.append({
     'year': '2015',
     'venue': 'fusion',
     'type': 'conference',
-    'award': ('Tammy L. Blair Award Runner-up', 'http://fusion2015.org/awards/'),
     'pdf': 'http://ieeexplore.ieee.org/document/7266612',
   })
 
