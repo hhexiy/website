@@ -7,16 +7,19 @@ pubs.append({
     'year': '2021',
     'venue': 'eacl',
     'type': 'conference',
+    'pdf': 'https://arxiv.org/abs/2102.06272',
+    'code': 'https: //github.com/vishakhpk/mi-unsup-summ',
   })
 
 pubs.append({
     'bib': 'pang2021text',
-    'title': 'Text Generation by Learning from Off-policy Demonstrations',
+    'title': 'Text Generation by Learning from Demonstrations',
     'author': ('richard', 'me'),
     'year': '2021',
     'venue': 'iclr',
     'type': 'conference',
     'pdf': 'https://openreview.net/pdf?id=RovX-uQ1Hua',
+    'code': 'https://github.com/yzpang/gold-off-policy-text-gen-iclr21',
   })
 
 pubs.append({
