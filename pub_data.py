@@ -8,7 +8,7 @@ pubs.append({
     'venue': 'eacl',
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2102.06272',
-    'code': 'https: //github.com/vishakhpk/mi-unsup-summ',
+    'code': 'https://github.com/vishakhpk/mi-unsup-summ',
   })
 
 pubs.append({
