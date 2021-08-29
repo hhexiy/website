@@ -1,6 +1,17 @@
 pubs = []
 
 pubs.append({
+    'bib': 'joshi2021investigation',
+    'title': 'An Investigation of the (In)effectiveness of Counterfactually Augmented Data',
+    'author': ('nitish', 'me'),
+    'year': '2021',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '2107.00753',
+    'pdf': 'https://arxiv.org/abs/2107.00753',
+  })
+
+pubs.append({
     'bib': 'padmakumar2021unsupervised',
     'title': 'Unsupervised Extractive Summarization with Pointwise Mutual Information',
     'author': ('vishakh', 'me'),
