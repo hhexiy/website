@@ -6,9 +6,9 @@ from venue import *
 fout = sys.stdout
 
 title_format = '<a href="{link}">{name}</a>'
-author_format = '<a href="{link}"><span class="author">{name}</span></a>{symbol}'
-author_no_link_format = '<span class="author">{name}</span>{symbol}'
-venue_format = '<i>{name} ({abr})</i>, {year}<br>'
+author_format = '<a href="{link}" class="author">{name}</a>{symbol}'
+author_no_link_format = '{name}{symbol}'
+venue_format = '<i>{name} ({abr})</i>, {year}.'
 
 def gen_title(pub):
     if 'pdf' in pub:
@@ -17,10 +17,10 @@ def gen_title(pub):
         title = '%s' % pub['title']
     if 'award' in pub:
         name, link = pub['award']
-        award = ' (<a href="{link}"><span class="award">{name}</span></a>)'.format(name=name, link=link)
+        award = ' <b>({name})</b>'.format(name=name, link=link)
     else:
         award = ''
-    return '%s.%s<br>' % (title, award)
+    return '%s.%s' % (title, award)
 
 def gen_author(pub):
     s = []
@@ -29,25 +29,25 @@ def gen_author(pub):
         if author in pub.get('equal', []):
             symbol = '*'
         name, link = people.get(author, (author, None))
-        if not link:
-            s.append(author_no_link_format.format(name=name, symbol=symbol))
-        else:
-            s.append(author_format.format(link=link, name=name, symbol=symbol))
-    return r'%s and %s.<br>' % (', '.join(s[:-1]), s[-1])
+        #if not link:
+        s.append(author_no_link_format.format(name=name, symbol=symbol))
+        #else:
+        #    s.append(author_format.format(link=link, name=name, symbol=symbol))
+    return r'%s and %s.' % (', '.join(s[:-1]), s[-1])
 
 def gen_venue(pub):
     name, abr = venue[pub['venue']]
     if pub['type'] == 'arxiv':
-        return '<i>{name}:{index} preprint</i>, {year}<br>'.format(name=name, index=pub['index'], year=pub['year'])
+        return '<i>{name}:{index} preprint</i>, {year}.'.format(name=name, index=pub['index'], year=pub['year'])
     elif pub['type'] == 'workshop':
         name, link = venue[pub['ws']]
-        return '<i>{venue} Workshop on <a href="{link}">{name}</a></i>, {year}<br>'.format(venue=abr, link=link, name=name, year=pub['year'])
+        return '<i>{venue} Workshop on {name}</i>, {year}.'.format(venue=abr, link=link, name=name, year=pub['year'])
     elif pub['type'] == 'demo':
-        return '<i>{name} ({abr}) demo, {year}</i>'.format(name=name, abr=abr, year=pub['year'])
+        return '<i>{name} ({abr}) demo</i>, {year}.'.format(name=name, abr=abr, year=pub['year'])
     elif abr:
         return venue_format.format(name=name, abr=abr, year=pub['year'])
     else:
-        return '<i>{name}</i>, {year}<br>'.format(name=name, year=pub['year'])
+        return '<i>{name}</i>, {year}.'.format(name=name, year=pub['year'])
 
 def gen_bib(pub):
     s = []
@@ -63,6 +63,8 @@ def gen_bib(pub):
     type_ = pub['type']
     conf, abr = venue[pub['venue']]
 
+    title = pub['title'].replace('{', '\{')
+    title = title.replace('}', '\}')
     if type_ == 'conference':
         bib = """@inproceedings{{{name},
         author={{{author}}},
@@ -71,7 +73,7 @@ def gen_bib(pub):
         year={{{year}}}\n}}""".\
                     format(name=pub['bib'], \
                     author=author, \
-                    title=pub['title'], \
+                    title=title, \
                     conference=conf, abr=abr, year=pub['year'])
     elif type_ == 'arxiv':
         bib = """@article{{{name},
@@ -122,7 +124,10 @@ def gen_resource(i, pub):
 
     for key in ['code', 'data', 'slides', 'poster', 'screencast', 'talk', 'project', 'codalab']:
         if key in pub:
-            s.append('[<a href="{link}">{name}</a>]'.format(link=pub[key], name=key))
+            if not pub[key].startswith('http'):
+                s.append('[<a href="{{% link /{link} %}}">{name}</a>]'.format(link=pub[key], name=key))
+            else:
+                s.append('[<a href="{link}">{name}</a>]'.format(link=pub[key], name=key))
 
     return '%s<br>\n%s' % ('\n'.join(s), bib_div if bib_div else '')
 
@@ -130,6 +135,9 @@ curr_year = None
 pubs = sorted(pubs, key=lambda x: x['year'], reverse=True)
 for i, pub in enumerate(pubs):
     if pub['year'] != curr_year:
-        fout.write('<p><b>%s</b></p>\n' % pub['year'])
+        if curr_year != None:
+            fout.write('</ul>\n')
+        fout.write('<h2>%s</h2>\n' % pub['year'])
+        fout.write('<ul>\n')
         curr_year = pub['year']
-    fout.write('{title}\n{author}\n{venue}\n{resource}\n<br>\n'.format(title=gen_title(pub), author=gen_author(pub), venue=gen_venue(pub), resource=gen_resource(i, pub)))
+    fout.write('<li>{title}<br>{author} {venue} {resource} </li>\n'.format(title=gen_title(pub), author=gen_author(pub), venue=gen_venue(pub), resource=gen_resource(i, pub)))

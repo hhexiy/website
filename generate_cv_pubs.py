@@ -49,9 +49,14 @@ with open('conference.tex', 'w') as fconf, open('workshop.tex', 'w') as fwork, o
             }
     for i, pub in enumerate(pubs):
         if pub['type'] in fouts:
-            pub_str = '{author}. {title}. {venue}.\n\n'.format(
+            if 'notes' in pub:
+                format_str = '{author}. {title}. {venue}. ({notes})\n\n'
+            else:
+                format_str = '{author}. {title}. {venue}.\n\n'
+            pub_str = format_str.format(
                             title=gen_title(pub),
                             author=gen_author(pub),
-                            venue=gen_venue(pub))
+                            venue=gen_venue(pub),
+                            notes=pub.get('notes'))
             pub_str = pub_str.replace('&', '\\&')
             fouts[pub['type']].write(pub_str)

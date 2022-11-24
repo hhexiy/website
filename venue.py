@@ -14,6 +14,7 @@ venue = {
     'icml': ('International Conference on Machine Learning', 'ICML'),
     'wacv': ('Winter Conference on Applications of Computer Vision', 'WACV'),
     'sigdial': ('Special Interest Group on Discource and Dialogue', 'SigDial'),
+    'inlg': ('International Natural Language Generation Conference', 'INLG'),
     # workshop
     'deeplo': ('DeepLo', 'https://sites.google.com/view/deeplo19'),
     'inferning': ('Inferning', 'http://inferning.cs.umass.edu/2012'),
