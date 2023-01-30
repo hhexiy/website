@@ -37,13 +37,12 @@ pubs.append({
 
 
 pubs.append({
-    'bib': 'saparov2022language',
+    'bib': 'saparov2023language',
     'title': "Language Models are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought",
     'author': ('abu', 'me'),
-    'year': '2022',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2210.01240',
+    'year': '2023',
+    'venue': 'iclr',
+    'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2210.01240',
     'code': 'http://github.com/asaparov/prontoqa',
   })
