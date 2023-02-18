@@ -1,5 +1,19 @@
 pubs = []
 
+
+pubs.append({
+    'bib': 'stickland2023robustification',
+    'title': "Robustification of Multilingual Language Models to Real-world Noise in Crosslingual Zero-shot Settings with Robust Contrastive Pretraining",
+    'author': ('Asa Cooper Stickland', 'Sailik Sengupta', 'Jason Krone', 'me', 'Saab Mansour'),
+    'equal': ('Asa Cooper Stickland', 'Sailik Sengupta'),
+    'year': '2023',
+    'venue': 'eacl',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/abs/2210.04782',
+    'code': 'https://github.com/amazon-science/multilingual-robust-contrastive-pretraining',
+  })
+
+
 pubs.append({
     'bib': 'pang2022reward',
     'title': "Reward Gaming in Conditional Text Generation",
