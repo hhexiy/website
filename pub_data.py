@@ -1,5 +1,25 @@
 pubs = []
 
+pubs.append({
+    'bib': 'padmakumar2023extrapolative',
+    'title': "Extrapolative Controlled Sequence Generation via Iterative Refinement ",
+    'author': ('vishakh', 'richard', 'me', 'Ankur P Parikh'),
+    'year': '2023',
+    'venue': 'icml',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/pdf/2303.04562.pdf',
+  })
+
+pubs.append({
+    'bib': 'pang2023reward',
+    'title': "Reward Gaming in Conditional Text Generation",
+    'author': ('richard', 'vishakh', 'Thibault Sellam', 'Ankur P Parikh','me'),
+    'year': '2023',
+    'venue': 'acl',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/abs/2211.08714',
+    'talk': 'docs/presentation/reward-gaming-slides.pdf',
+  })
 
 pubs.append({
     'bib': 'stickland2023robustification',
@@ -13,16 +33,14 @@ pubs.append({
     'code': 'https://github.com/amazon-science/multilingual-robust-contrastive-pretraining',
   })
 
-
 pubs.append({
-    'bib': 'pang2022reward',
-    'title': "Reward Gaming in Conditional Text Generation",
-    'author': ('richard', 'vishakh', 'Thibault Sellam', 'Ankur P Parikh','me'),
-    'year': '2022',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2211.08714',
-    'pdf': 'https://arxiv.org/abs/2211.08714',
+    'bib': 'venkatraman2023decoding',
+    'title': "How do decoding algorithms distribute information in dialogue responses?",
+    'author': ('Saranya Venkatraman', 'me', 'David Reitter'),
+    'year': '2023',
+    'venue': 'eacl findings',
+    'type': 'conference',
+    'pdf': 'https://aclanthology.org/2023.findings-eacl.70.pdf',
   })
 
 pubs.append({
@@ -34,6 +52,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2210.14011.pdf',
     'code': 'https://github.com/joshinh/spurious-correlations-nlp',
+    'talk': 'docs/presentation/spurious-features-slides.pdf',
   })
 
 
@@ -59,6 +78,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2210.01240',
     'code': 'http://github.com/asaparov/prontoqa',
+    'talk': 'docs/presentation/prontoqa-slides.pdf',
   })
 
 pubs.append({
@@ -68,7 +88,7 @@ pubs.append({
     'year': '2022',
     'venue': 'emnlp',
     'type': 'conference',
-    'pdf': '',
+    'pdf': 'https://aclanthology.org/2022.emnlp-main.816.pdf',
     'code': 'https://github.com/COFE2022/CoFE',
   })
 
@@ -222,6 +242,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://openreview.net/pdf?id=RovX-uQ1Hua',
     'code': 'https://github.com/yzpang/gold-off-policy-text-gen-iclr21',
+    'talk': 'docs/presentation/gold-slides.pdf',
   })
 
 pubs.append({
@@ -272,6 +293,7 @@ pubs.append({
     'ws': 'deeplo',
     'pdf': 'https://arxiv.org/pdf/1908.10763.pdf',
     'code': 'https://github.com/hhexiy/debiased',
+    'poster': 'docs/presentation/2019_emnlp_deeplo_poster.pdf',
   })
 
 pubs.append({
@@ -441,7 +463,7 @@ pubs.append({
     'venue': 'emnlp',
     'type': 'conference',
     'pdf': 'docs/papers/2015_simtrans_rewrite.pdf',
-    'slides': 'docs/presentation/emnlp15_slides.pdf',
+    'talk': 'docs/presentation/emnlp15_slides.pdf',
     'code': 'code/rewriter.tgz',
   })
 
@@ -518,7 +540,7 @@ pubs.append({
     'venue': 'emnlp',
     'type': 'conference',
     'pdf': 'docs/papers/depFeat.pdf',
-    'slides': 'docs/presentation/depFeat_slides.pdf',
+    'talk': 'docs/presentation/depFeat_slides.pdf',
     'talk': 'docs/presentation/depFeat_screencast.mp4',
   })
 
@@ -552,7 +574,7 @@ pubs.append({
     'ws': 'inferning',
     'type': 'workshop',
     'pdf': 'docs/papers/dynafea_ws.pdf',
-    'slides': 'docs/presentation/dynafea_slides.pdf',
+    'talk': 'docs/presentation/dynafea_slides.pdf',
     'poster': 'docs/presentation/dynafea_poster.pdf',
   })
 
@@ -564,7 +586,7 @@ pubs.append({
     'venue': 'cvpr',
     'type': 'conference',
     'pdf': 'docs/papers/srgpr.pdf',
-    'slides': 'docs/presentation/srgpr_slides.pdf',
+    'talk': 'docs/presentation/srgpr_slides.pdf',
     'code': 'code/matlab_srgpr.zip',
   })
 

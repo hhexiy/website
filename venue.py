@@ -3,6 +3,7 @@ venue = {
     'iclr': ('International Conference on Learning Representations', 'ICLR'),
     'acl': ('Association for Computational Linguistics', 'ACL'),
     'eacl': ('The European Chapter of the Association for Computational Linguistics', 'EACL'),
+    'eacl findings': ('Findings of the European Chapter of the Association for Computational Linguistics', 'EACL Findings'),
     'arxiv': ('arXiv', ''),
     'emnlp': ('Empirical Methods in Natural Language Processing', 'EMNLP'),
     'fusion': ('International Conference on Information Fusion', 'Fusion'),
