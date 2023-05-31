@@ -1,13 +1,38 @@
 pubs = []
 
 pubs.append({
-    'bib': 'padmakumar2023extrapolative',
-    'title': "Extrapolative Controlled Sequence Generation via Iterative Refinement ",
-    'author': ('vishakh', 'richard', 'me', 'Ankur P Parikh'),
+    'bib': 'saparov2023testing',
+    'title': "Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples",
+    'author': ('abu', 'richard', 'vishakh', 'nitish', 'Seyed Mehran Kazemi', 'Najoung Kim', 'me'),
+    'equal': ('Najoung Kim', 'me'),
     'year': '2023',
-    'venue': 'icml',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '2305.15269',
+    'pdf': 'https://arxiv.org/abs/2305.15269',
+    'code': 'https://github.com/asaparov/prontoqa',
+  })
+
+pubs.append({
+    'bib': 'si2023measuring',
+    'title': "Measuring Inductive Biases of In-Context Learning with Underspecified Demonstrations",
+    'author': ('Chenglei Si', 'Dan Friedman', 'nitish', 'Shi Feng', 'Danqi Chen', 'me'),
+    'equal': ('Chenglei Si', 'Dan Friedman'),
+    'year': '2023',
+    'venue': 'acl',
     'type': 'conference',
-    'pdf': 'https://arxiv.org/pdf/2303.04562.pdf',
+    'pdf': 'https://arxiv.org/abs/2305.13299',
+    'code': 'https://github.com/NoviScl/AmbigPrompt',
+  })
+
+pubs.append({
+    'bib': 'yang2023efficient',
+    'title': "Efficient Shapley Values Estimation by Amortization for Text Classification",
+    'author': ('Chenghao Yang', 'Fan Yin', 'me', 'Kai-Wei Chang', 'Xiaofei Ma', 'Bing Xiang'),
+    'year': '2023',
+    'venue': 'acl',
+    'type': 'conference',
+    'pdf': '',
   })
 
 pubs.append({
@@ -19,6 +44,17 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2211.08714',
     'talk': 'docs/presentation/reward-gaming-slides.pdf',
+  })
+
+pubs.append({
+    'bib': 'padmakumar2023extrapolative',
+    'title': "Extrapolative Controlled Sequence Generation via Iterative Refinement ",
+    'author': ('vishakh', 'richard', 'me', 'Ankur P Parikh'),
+    'year': '2023',
+    'venue': 'icml',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/pdf/2303.04562.pdf',
+    'code': 'https://github.com/vishakhpk/iter-extrapolation',
   })
 
 pubs.append({
