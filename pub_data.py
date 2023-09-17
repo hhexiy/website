@@ -1,6 +1,40 @@
 pubs = []
 
 pubs.append({
+    'bib': 'padmakumar2023writing',
+    'title': "Does Writing with Language Models Reduce Content Diversity?",
+    'author': ('vishakh', 'me'),
+    'year': '2023',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '2309.05196',
+    'pdf': 'https://arxiv.org/abs/2309.05196',
+    'code': 'https://github.com/vishakhpk/hai-diversity',
+  })
+
+pubs.append({
+    'bib': 'pang2023leveraging',
+    'title': "Leveraging Implicit Feedback from Deployment Data in Dialogue",
+    'author': ('richard', 'Stephen Roller', 'cho', 'me', 'Jason Weston'),
+    'year': '2023',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '2307.14117',
+    'pdf': 'https://arxiv.org/abs/2307.14117',
+  })
+
+pubs.append({
+    'bib': 'chen2023do',
+    'title': "Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations ",
+    'author': ('yanda', 'ruiqi', 'Narutatsu Ri', 'Chen Zhao', 'me', 'Jacob Steinhardt', 'Zhou Yu', 'Kathleen McKeown'),
+    'year': '2023',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '2307.08678',
+    'pdf': 'https://arxiv.org/pdf/2307.08678.pdf',
+  })
+
+pubs.append({
     'bib': 'saparov2023testing',
     'title': "Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples",
     'author': ('abu', 'richard', 'vishakh', 'nitish', 'Seyed Mehran Kazemi', 'Najoung Kim', 'me'),
