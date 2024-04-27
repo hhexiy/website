@@ -1,25 +1,126 @@
 pubs = []
 
 pubs.append({
-    'bib': 'padmakumar2023writing',
-    'title': "Does Writing with Language Models Reduce Content Diversity?",
-    'author': ('vishakh', 'me'),
+    'bib': 'anwar2024foundational',
+    'title': "Foundational Challenges in Assuring Alignment and Safety of Large Language Models",
+    "author": ("Usman Anwar", "Abulhair Saparov", "Javier Rando", "Daniel Paleka", "Miles Turpin", "Peter Hase", "Ekdeep Singh Lubana", "Erik Jenner", "Stephen Casper", "Oliver Sourbut", "Benjamin L Edelman", "Zhaowei Zhang", "Mario Günther", "Anton Korinek", "Jose Hernandez-Orallo", "Lewis Hammond", "Eric Bigelow", "Alexander Pan", "Lauro Langosco", "Tomasz Korbak", "Heidi Zhang", "Ruiqi Zhong", "Sean O hEigeartaigh", "Gabriel Recchia", "Giulio Corsi", "Alan Chan", "Markus Anderljung", "Lilian Edwards", "Yoshua Bengio", "Danqi Chen", "Samuel Albanie", "Tegan Maharaj", "Jakob Foerster", "Florian Tramer", "me", "Atoosa Kasirzadeh", "Yejin Choi", "David Krueger"),
+    'year': '2024',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '2404.09932',
+    'pdf': 'https://arxiv.org/pdf/2404.09932',
+  })
+
+
+pubs.append({
+    'bib': 'wu2024coblock',
+    'title': "Your Co-Workers Matter: Evaluating Collaborative Capabilities of Language Models in Blocks World",
+    'author': ('Guande Wu', 'Chen Zhao', 'Claudio Silva', 'me'),
+    'year': '2024',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '2404.00246',
+    'pdf': 'https://arxiv.org/pdf/2404.00246',
+  })
+
+
+pubs.append({
+    'bib': 'chen2024parallel',
+    'title': "Parallel Structures in Pre-training Data Yield In-Context Learning",
+    'author': ('yanda', 'Chen Zhao', 'Zhou Yu', 'kathy', 'me'),
+    'year': '2024',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '2401.13986',
+    'pdf': 'https://arxiv.org/pdf/2402.12530',
+  })
+
+
+pubs.append({
+    'bib': 'chen2024towards',
+    'title': "Towards Consistent Natural-Language Explanations via Explanation-Consistency Finetuning",
+    'author': ('yanda', 'Chandan Singh', 'Xiaodong Liu', 'Simiao Zuo', 'Bin Yu', 'me', 'Jianfeng Gao'),
+    'year': '2024',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '2401.13986',
+    'pdf': 'https://arxiv.org/pdf/2401.13986',
+  })
+
+pubs.append({
+    'bib': 'trinh2024geometry',
+    'title': "Solving Olympiad Geometry without Human Demonstrations",
+    'author': ('Trieu Trinh', 'Yuhuai Wu', 'Quoc V Le', 'me', 'Thang Luong'),
+    'year': '2024',
+    'type': 'journal',
+    'venue': 'nature',
+    'vol': '625',
+    'page': '476--482',
+    'pdf': 'https://www.nature.com/articles/s41586-023-06747-5',
+  })
+
+pubs.append({
+    'bib': 'joshi2024improving',
+    'title': "Improving Multi-Hop Reasoning in LLMs by Learning from Rich Human Feedback",
+    'author': ('nitish', 'Koushik Kalyanaraman', 'Zhiting Hu', 'Kumar Chellapilla', 'me', 'Li Erran Li'),
+    'year': '2024',
+    'type': 'workshop',
+    'venue': 'aaai',
+    'ws': 'Neuro-Symbolic Learning and Reasoning in the era of Large Language Models',
+    'pdf': 'https://openreview.net/pdf?id=wxfqhp9bNR',
+  })
+
+pubs.append({
+    'bib': 'nguyen2023pragmatic',
+    'title': "Pragmatic Radiology Report Generation",
+    'author': ('Dang Nguyen', 'Chacha Chen', 'me', 'Chenhao Tan'),
+    'year': '2023',
+    'venue': 'ml4h',
+    'type': 'conference',
+    'pdf': 'https://proceedings.mlr.press/v225/nguyen23a/nguyen23a.pdf',
+  })
+
+pubs.append({
+    'bib': 'lourie2024show',
+    'title': "Show Your Work with Confidence: Confidence Bands for Tuning Curves",
+    'author': ('nick', 'cho', 'me'),
+    'year': '2024',
+    'venue': 'naacl',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/pdf/2311.09480',
+    'code': 'https: //github.com/nicholaslourie/opda',
+  })
+
+pubs.append({
+    'bib': 'joshi2023persona',
+    'title': "Personas as a Way to Model Truthfulness in Language Models",
+    'author': ('nitish', 'Javier Rando', 'abu', 'Najoung Kim', 'me'),
+    'equal': ('nitish', 'Javier Rando'),
     'year': '2023',
     'venue': 'arxiv',
     'type': 'arxiv',
-    'index': '2309.05196',
+    'index': '2310.18168',
+    'pdf': 'https://arxiv.org/pdf/2310.18168',
+  })
+
+pubs.append({
+    'bib': 'padmakumar2024writing',
+    'title': "Does Writing with Language Models Reduce Content Diversity?",
+    'author': ('vishakh', 'me'),
+    'year': '2024',
+    'venue': 'iclr',
+    'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2309.05196',
     'code': 'https://github.com/vishakhpk/hai-diversity',
   })
 
 pubs.append({
-    'bib': 'pang2023leveraging',
+    'bib': 'pang2024leveraging',
     'title': "Leveraging Implicit Feedback from Deployment Data in Dialogue",
     'author': ('richard', 'Stephen Roller', 'cho', 'me', 'Jason Weston'),
-    'year': '2023',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2307.14117',
+    'year': '2024',
+    'venue': 'eacl',
+    'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2307.14117',
   })
 
@@ -40,9 +141,8 @@ pubs.append({
     'author': ('abu', 'richard', 'vishakh', 'nitish', 'Seyed Mehran Kazemi', 'Najoung Kim', 'me'),
     'equal': ('Najoung Kim', 'me'),
     'year': '2023',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2305.15269',
+    'type': 'conference',
+    'venue': 'nips',
     'pdf': 'https://arxiv.org/abs/2305.15269',
     'code': 'https://github.com/asaparov/prontoqa',
   })
@@ -163,13 +263,12 @@ pubs.append({
   })
 
 pubs.append({
-    'bib': 'chen2022relation',
+    'bib': 'chen2023relation',
     'title': "On the Relation between Sensitivity and Accuracy in In-context Learning",
     'author': ('yanda', 'Chen Zhao', 'Zhou Yu', 'kathy', 'me'),
-    'year': '2022',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2209.07661',
+    'year': '2023',
+    'type': 'conference',
+    'venue': 'emnlp findings',
     'pdf': 'https://arxiv.org/abs/2209.07661',
   })
 

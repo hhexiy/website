@@ -40,7 +40,7 @@ def gen_venue(pub):
     if pub['type'] == 'arxiv':
         return '<i>{name}:{index} preprint</i>, {year}.'.format(name=name, index=pub['index'], year=pub['year'])
     elif pub['type'] == 'workshop':
-        name, link = venue[pub['ws']]
+        name, link = venue.get(pub['ws'], (pub['ws'], None))
         return '<i>{venue} Workshop on {name}</i>, {year}.'.format(venue=abr, link=link, name=name, year=pub['year'])
     elif pub['type'] == 'demo':
         return '<i>{name} ({abr}) demo</i>, {year}.'.format(name=name, abr=abr, year=pub['year'])
@@ -86,7 +86,7 @@ def gen_bib(pub):
                     title=pub['title'], \
                     index=pub['index'], year=pub['year'])
     elif type_ == 'workshop':
-        ws, link = venue[pub['ws']]
+        ws, link = venue.get(pub['ws'], (pub['ws'], None))
         bib = """@inproceedings{{{name},
         author={{{author}}},
         title={{{title}}},
