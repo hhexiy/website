@@ -125,13 +125,12 @@ pubs.append({
   })
 
 pubs.append({
-    'bib': 'chen2023do',
+    'bib': 'chen2024do',
     'title': "Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations ",
     'author': ('yanda', 'ruiqi', 'Narutatsu Ri', 'Chen Zhao', 'me', 'Jacob Steinhardt', 'Zhou Yu', 'Kathleen McKeown'),
-    'year': '2023',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2307.08678',
+    'year': '2024',
+    'venue': 'icml',
+    'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2307.08678.pdf',
   })
 
