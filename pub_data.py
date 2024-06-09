@@ -3,7 +3,7 @@ pubs = []
 pubs.append({
     'bib': 'castelo2023argus',
     'title': "{ARGUS}: Visualization of {AI}-Assisted Task Guidance in {AR}",
-    'author': ("Sonia Castelo", "Joao Rulff", "Erin McGowan", "Bea Steers", "Guande Wu", "Shaoyu Chen", "Iran Roman", "Roque Lopez", "Ethan Brewer", "Chen Zhao", "Jing Qian", "Kyunghyun Cho", "He He", "Qi Sun", "Huy Vo", "Juan Bello", "Michael Krone", "Claudio Silva"),
+    'author': ("Sonia Castelo", "Joao Rulff", "Erin McGowan", "Bea Steers", "Guande Wu", "Shaoyu Chen", "Iran Roman", "Roque Lopez", "Ethan Brewer", "Chen Zhao", "Jing Qian", "Kyunghyun Cho", 'me', "Qi Sun", "Huy Vo", "Juan Bello", "Michael Krone", "Claudio Silva"),
     'year': '2023',
     'venue': 'vis',
     'type': 'conference',
@@ -14,7 +14,7 @@ pubs.append({
 pubs.append({
     'bib': 'pang2024iterative',
     'title': "Iterative Reasoning Preference Optimization",
-    'author': ("Richard Yuanzhe Pang", "Weizhe Yuan", "Kyunghyun Cho", "He He", "Sainbayar Sukhbaatar", "Jason Weston"),
+    'author': ("Richard Yuanzhe Pang", "Weizhe Yuan", "Kyunghyun Cho", "me", "Sainbayar Sukhbaatar", "Jason Weston"),
     'year': '2024',
     'venue': 'arxiv',
     'type': 'arxiv',
@@ -25,7 +25,7 @@ pubs.append({
 pubs.append({
     'bib': 'kirk2024prism',
     'title': "The {PRISM} Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models",
-    'author': ('Hannah Rose Kirk', 'Alexander Whitefield', 'Paul Röttger', 'Andrew Bean', 'Katerina Margatina', 'Juan Ciro', 'Rafael Mosquera', 'Max Bartolo', 'Adina Williams', 'He He', 'Bertie Vidgen', 'Scott A Hale'),
+    'author': ('Hannah Rose Kirk', 'Alexander Whitefield', 'Paul Röttger', 'Andrew Bean', 'Katerina Margatina', 'Juan Ciro', 'Rafael Mosquera', 'Max Bartolo', 'Adina Williams', 'me', 'Bertie Vidgen', 'Scott A Hale'),
     'year': '2024',
     'venue': 'arxiv',
     'type': 'arxiv',
