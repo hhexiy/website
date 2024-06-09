@@ -1,5 +1,15 @@
 pubs = []
 
+pubs.append({
+    'bib': 'castelo2023argus',
+    'title': "{ARGUS}: Visualization of {AI}-Assisted Task Guidance in {AR}",
+    'author': ("Sonia Castelo", "Joao Rulff", "Erin McGowan", "Bea Steers", "Guande Wu", "Shaoyu Chen", "Iran Roman", "Roque Lopez", "Ethan Brewer", "Chen Zhao", "Jing Qian", "Kyunghyun Cho", "He He", "Qi Sun", "Huy Vo", "Juan Bello", "Michael Krone", "Claudio Silva"),
+    'year': '2023',
+    'venue': 'vis',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/abs/2308.06246',
+  })
+
 
 pubs.append({
     'bib': 'pang2024iterative',

@@ -29,4 +29,5 @@ venue = {
     'jmlr': ('Journal of Machine Learning Research', 'JMLR'),
     'tacl': ('Transaction of Association for Computational Linguistics', 'TACL'),
     'nature': ('Nature', 'Nature'),
+    'vis': ('IEEE Transactions on Visualization and Computer Graphics', 'IEEE Vis')
 }
