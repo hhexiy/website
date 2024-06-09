@@ -1,5 +1,28 @@
 pubs = []
 
+
+pubs.append({
+    'bib': 'pang2024iterative',
+    'title': "Iterative Reasoning Preference Optimization",
+    'author': ("Richard Yuanzhe Pang", "Weizhe Yuan", "Kyunghyun Cho", "He He", "Sainbayar Sukhbaatar", "Jason Weston"),
+    'year': '2024',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '2404.19733',
+    'pdf': 'https://arxiv.org/pdf/2404.19733',
+  })
+
+pubs.append({
+    'bib': 'kirk2024prism',
+    'title': "The {PRISM} Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models",
+    'author': ('Hannah Rose Kirk', 'Alexander Whitefield', 'Paul Röttger', 'Andrew Bean', 'Katerina Margatina', 'Juan Ciro', 'Rafael Mosquera', 'Max Bartolo', 'Adina Williams', 'He He', 'Bertie Vidgen', 'Scott A Hale'),
+    'year': '2024',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'index': '2404.16019',
+    'pdf': 'https://arxiv.org/pdf/2404.16019',
+  })
+
 pubs.append({
     'bib': 'anwar2024foundational',
     'title': "Foundational Challenges in Assuring Alignment and Safety of Large Language Models",
@@ -17,9 +40,8 @@ pubs.append({
     'title': "Your Co-Workers Matter: Evaluating Collaborative Capabilities of Language Models in Blocks World",
     'author': ('Guande Wu', 'Chen Zhao', 'Claudio Silva', 'me'),
     'year': '2024',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2404.00246',
+    'venue': 'acl findings',
+    'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2404.00246',
   })
 
@@ -29,9 +51,8 @@ pubs.append({
     'title': "Parallel Structures in Pre-training Data Yield In-Context Learning",
     'author': ('yanda', 'Chen Zhao', 'Zhou Yu', 'kathy', 'me'),
     'year': '2024',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2401.13986',
+    'venue': 'acl',
+    'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2402.12530',
   })
 
