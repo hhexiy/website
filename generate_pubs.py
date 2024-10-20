@@ -1,5 +1,5 @@
-import sys
-from pub_data import *
+import sys, re, argparse
+from pub_data import pubs
 from people import *
 from venue import *
 
@@ -15,12 +15,7 @@ def gen_title(pub):
         title = title_format.format(link=pub['pdf'], name=pub['title'])
     else:
         title = '%s' % pub['title']
-    if 'award' in pub:
-        name, link = pub['award']
-        award = ' <b>({name})</b>'.format(name=name, link=link)
-    else:
-        award = ''
-    return '%s.%s' % (title, award)
+    return '%s.' % (title,)
 
 def gen_author(pub):
     s = []
@@ -48,6 +43,14 @@ def gen_venue(pub):
         return venue_format.format(name=name, abr=abr, year=pub['year'])
     else:
         return '<i>{name}</i>, {year}.'.format(name=name, year=pub['year'])
+
+def gen_award(pub):
+    if 'award' in pub:
+        name, link = pub['award']
+        award = ' <font color="red">{name}</font>'.format(name=name, link=link)
+    else:
+        award = ''
+    return award
 
 def gen_bib(pub):
     s = []
@@ -131,13 +134,39 @@ def gen_resource(i, pub):
 
     return '%s<br>\n%s' % ('\n'.join(s), bib_div if bib_div else '')
 
-curr_year = None
-pubs = sorted(pubs, key=lambda x: x['year'], reverse=True)
-for i, pub in enumerate(pubs):
-    if pub['year'] != curr_year:
-        if curr_year != None:
-            fout.write('</ul>\n')
-        fout.write('<h2>%s</h2>\n' % pub['year'])
-        fout.write('<ul>\n')
-        curr_year = pub['year']
-    fout.write('<li>{title}<br>{author} {venue} {resource} </li>\n'.format(title=gen_title(pub), author=gen_author(pub), venue=gen_venue(pub), resource=gen_resource(i, pub)))
+def main():
+    # Argument parser setup
+    parser = argparse.ArgumentParser(description='Generate HTML files for publications.')
+    parser.add_argument('--selected', type=int, help='Only process selected publications and output to -selected files')
+    parser.add_argument('--no-year', action='store_true', help='Do not print year')
+    args = parser.parse_args()
+
+    curr_year = None
+    sorted_pubs = sorted(pubs, key=lambda x: x['year'], reverse=True)
+    for i, pub in enumerate(sorted_pubs):
+        if args.selected is not None and (pub.get('selected') is None or int(pub.get('selected')) > args.selected):
+            continue
+
+        if pub['type'] == 'arxiv':
+            pub['index'] = re.search(r'(\d+\.\d+)', pub['pdf']).group(1)
+
+        if args.no_year:
+            if curr_year is None:
+                fout.write('<ul>\n')
+                curr_year = 1
+            fout.write('<li>{title}<br>{author} {venue} {award} {resource} </li>\n'.format(title=gen_title(pub), author=gen_author(pub), venue=gen_venue(pub), award=gen_award(pub), resource=gen_resource(i, pub)))
+        else:
+            if pub['year'] != curr_year:
+                if curr_year != None:
+                    fout.write('</ul>\n')
+                fout.write('<h2>%s</h2>\n' % pub['year'])
+                fout.write('<ul>\n')
+                curr_year = pub['year']
+            fout.write('<li>{title}<br>{author} {venue} {award} {resource} </li>\n'.format(title=gen_title(pub), author=gen_author(pub), venue=gen_venue(pub), award=gen_award(pub), resource=gen_resource(i, pub)))
+
+    # end
+    fout.write('</ul>\n')
+
+if __name__ == '__main__':
+    main()
+

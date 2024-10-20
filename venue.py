@@ -25,9 +25,10 @@ venue = {
     'deeplo': ('DeepLo', 'https://sites.google.com/view/deeplo19'),
     'inferning': ('Inferning', 'http://inferning.cs.umass.edu/2012'),
     'adaptive': ('Machine Learning From and For Adaptive User Technologies: From Active Learning & Experimentation to Optimization & Personalization', 'https://sites.google.com/site/mlaihci/'),
+    'vis': ('IEEE Transactions on Visualization and Computer Graphics', 'IEEE Vis'),
     # journal
     'jmlr': ('Journal of Machine Learning Research', 'JMLR'),
     'tacl': ('Transaction of Association for Computational Linguistics', 'TACL'),
     'nature': ('Nature', 'Nature'),
-    'vis': ('IEEE Transactions on Visualization and Computer Graphics', 'IEEE Vis')
+    'tmlr': ('Transaction on Machine Learning Research', 'TMLR'),
 }

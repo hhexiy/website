@@ -1,6 +1,39 @@
 pubs = []
 
 pubs.append({
+    'bib': 'wen2024language',
+    'title': "Language Models Learn to Mislead Humans via RLHF",
+    'author': ("Jiaxin Wen", "Ruiqi Zhong", "Akbir Khan", "Ethan Perez", "Jacob Steinhardt", "Minlie Huang", "Sam Boman", "me", "Shi Feng"),
+    'year': '2024',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'pdf': 'https://arxiv.org/pdf/2409.12822',
+    'selected': '1',
+  })
+
+pubs.append({
+    'bib': 'pan2024spontaneous',
+    'title': "Spontaneous Reward Hacking in Iterative Self-Refinement",
+    'author': ("Jane Pan", "me", "Sam Bowman", "Shi Feng"),
+    'year': '2024',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'pdf': 'https://arxiv.org/pdf/2407.04549',
+    'selected': '3',
+  })
+
+pubs.append({
+    'bib': 'joshi2024prone',
+    'title': "LLMs Are Prone to Fallacies in Causal Inference",
+    'author': ("Nitish Joshi", "Abu Saparov", "Yixin Wang", "me"),
+    'year': '2024',
+    'venue': 'emnlp',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/pdf/2406.12158',
+    'selected': '2',
+  })
+
+pubs.append({
     'bib': 'castelo2023argus',
     'title': "{ARGUS}: Visualization of {AI}-Assisted Task Guidance in {AR}",
     'author': ("Sonia Castelo", "Joao Rulff", "Erin McGowan", "Bea Steers", "Guande Wu", "Shaoyu Chen", "Iran Roman", "Roque Lopez", "Ethan Brewer", "Chen Zhao", "Jing Qian", "Kyunghyun Cho", 'me', "Qi Sun", "Huy Vo", "Juan Bello", "Michael Krone", "Claudio Silva"),
@@ -16,9 +49,8 @@ pubs.append({
     'title': "Iterative Reasoning Preference Optimization",
     'author': ("Richard Yuanzhe Pang", "Weizhe Yuan", "Kyunghyun Cho", "me", "Sainbayar Sukhbaatar", "Jason Weston"),
     'year': '2024',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2404.19733',
+    'venue': 'nips',
+    'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2404.19733',
   })
 
@@ -27,10 +59,11 @@ pubs.append({
     'title': "The {PRISM} Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models",
     'author': ('Hannah Rose Kirk', 'Alexander Whitefield', 'Paul Röttger', 'Andrew Bean', 'Katerina Margatina', 'Juan Ciro', 'Rafael Mosquera', 'Max Bartolo', 'Adina Williams', 'me', 'Bertie Vidgen', 'Scott A Hale'),
     'year': '2024',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2404.16019',
+    'venue': 'nips',
+    'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2404.16019',
+    'award': ('Oral', ''),
+    'selected': '1',
   })
 
 pubs.append({
@@ -38,10 +71,12 @@ pubs.append({
     'title': "Foundational Challenges in Assuring Alignment and Safety of Large Language Models",
     "author": ("Usman Anwar", "Abulhair Saparov", "Javier Rando", "Daniel Paleka", "Miles Turpin", "Peter Hase", "Ekdeep Singh Lubana", "Erik Jenner", "Stephen Casper", "Oliver Sourbut", "Benjamin L Edelman", "Zhaowei Zhang", "Mario Günther", "Anton Korinek", "Jose Hernandez-Orallo", "Lewis Hammond", "Eric Bigelow", "Alexander Pan", "Lauro Langosco", "Tomasz Korbak", "Heidi Zhang", "Ruiqi Zhong", "Sean O hEigeartaigh", "Gabriel Recchia", "Giulio Corsi", "Alan Chan", "Markus Anderljung", "Lilian Edwards", "Yoshua Bengio", "Danqi Chen", "Samuel Albanie", "Tegan Maharaj", "Jakob Foerster", "Florian Tramer", "me", "Atoosa Kasirzadeh", "Yejin Choi", "David Krueger"),
     'year': '2024',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2404.09932',
+    'venue': 'tmlr',
+    'vol': '',
+    'page': '',
+    'type': 'journal',
     'pdf': 'https://arxiv.org/pdf/2404.09932',
+    'selected': '2',
   })
 
 
@@ -53,6 +88,8 @@ pubs.append({
     'venue': 'acl findings',
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2404.00246',
+    'code': 'https://github.com/jnzs1836/coblock',
+    'selected': '2',
   })
 
 
@@ -64,6 +101,8 @@ pubs.append({
     'venue': 'acl',
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2402.12530',
+    'code': 'https://github.com/yandachen/ParallelStructuresICL',
+    'selected': '0',
   })
 
 
@@ -76,6 +115,7 @@ pubs.append({
     'type': 'arxiv',
     'index': '2401.13986',
     'pdf': 'https://arxiv.org/pdf/2401.13986',
+    'code': 'https://github.com/yandachen/explanation-consistency-finetuning',
   })
 
 pubs.append({
@@ -88,6 +128,7 @@ pubs.append({
     'vol': '625',
     'page': '476--482',
     'pdf': 'https://www.nature.com/articles/s41586-023-06747-5',
+    'selected': '1',
   })
 
 pubs.append({
@@ -123,15 +164,15 @@ pubs.append({
   })
 
 pubs.append({
-    'bib': 'joshi2023persona',
+    'bib': 'joshi2024persona',
     'title': "Personas as a Way to Model Truthfulness in Language Models",
     'author': ('nitish', 'Javier Rando', 'abu', 'Najoung Kim', 'me'),
     'equal': ('nitish', 'Javier Rando'),
-    'year': '2023',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2310.18168',
+    'year': '2024',
+    'venue': 'emnlp',
+    'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2310.18168',
+    'selected': '1',
   })
 
 pubs.append({
@@ -143,6 +184,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2309.05196',
     'code': 'https://github.com/vishakhpk/hai-diversity',
+    'selected': '0',
   })
 
 pubs.append({
@@ -163,6 +205,9 @@ pubs.append({
     'venue': 'icml',
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2307.08678.pdf',
+    'code': 'https://github.com/yandachen/CounterfactualSimulatability',
+    'award': ('Spotlight', ''),
+    'selected': '1',
   })
 
 pubs.append({
@@ -175,6 +220,7 @@ pubs.append({
     'venue': 'nips',
     'pdf': 'https://arxiv.org/abs/2305.15269',
     'code': 'https://github.com/asaparov/prontoqa',
+    'selected': '1',
   })
 
 pubs.append({
@@ -187,6 +233,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2305.13299',
     'code': 'https://github.com/NoviScl/AmbigPrompt',
+    'selected': '2',
   })
 
 pubs.append({
@@ -208,6 +255,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2211.08714',
     'talk': 'docs/presentation/reward-gaming-slides.pdf',
+    'selected': '2',
   })
 
 pubs.append({
@@ -219,6 +267,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2303.04562.pdf',
     'code': 'https://github.com/vishakhpk/iter-extrapolation',
+    'selected': '2',
   })
 
 pubs.append({
@@ -253,6 +302,7 @@ pubs.append({
     'pdf': 'https://arxiv.org/pdf/2210.14011.pdf',
     'code': 'https://github.com/joshinh/spurious-correlations-nlp',
     'talk': 'docs/presentation/spurious-features-slides.pdf',
+    'selected': '0',
   })
 
 
@@ -266,6 +316,7 @@ pubs.append({
     'pdf': 'https://arxiv.org/pdf/2210.13669.pdf',
     'code': 'https://github.com/vishakhpk/creative-instructions',
     'project': 'https://copoet-emnlp.github.io',
+    'selected': '2',
   })
 
 
@@ -279,6 +330,7 @@ pubs.append({
     'pdf': 'https://arxiv.org/abs/2210.01240',
     'code': 'http://github.com/asaparov/prontoqa',
     'talk': 'docs/presentation/prontoqa-slides.pdf',
+    'selected': '0',
   })
 
 pubs.append({
@@ -290,6 +342,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://aclanthology.org/2022.emnlp-main.816.pdf',
     'code': 'https://github.com/COFE2022/CoFE',
+    'selected': '3',
   })
 
 pubs.append({
@@ -300,6 +353,7 @@ pubs.append({
     'type': 'conference',
     'venue': 'emnlp findings',
     'pdf': 'https://arxiv.org/abs/2209.07661',
+    'selected': '3',
   })
 
 pubs.append({
@@ -313,14 +367,16 @@ pubs.append({
   })
 
 pubs.append({
-    'bib': 'puli2022nuisances',
+    'bib': 'puli2024nuisances',
     'title': "Nuisances via Negativa: Adjusting for Spurious Correlations via Data Augmentation",
     'author': ('Aahlad Puli', 'nitish', 'me', 'Rajesh Ranganath'),
-    'year': '2022',
-    'venue': 'arxiv',
-    'type': 'arxiv',
-    'index': '2210.01302',
+    'year': '2024',
+    'venue': 'tmlr',
+    'vol': '',
+    'page': '',
+    'type': 'journal',
     'pdf': 'https://arxiv.org/abs/2210.01302',
+    'selected': '3',
   })
 
 pubs.append({
@@ -342,6 +398,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2112.08608.pdf',
     'code': 'https://github.com/nyu-mll/quality',
+    'selected': '2',
   })
 
 pubs.append({
@@ -365,6 +422,7 @@ pubs.append({
     'pdf': 'https://arxiv.org/abs/2111.04193',
     'code': 'https://github.com/vishakhpk/mil-creative-captioning',
     'demo': 'https://www.youtube.com/watch?v=JX30YecV2VU',
+    'selected': '2',
   })
 
 pubs.append({
@@ -376,6 +434,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2110.07814',
     'code': 'https://github.com/yandachen/In-context-Tuning',
+    'selected': '1',
   })
 
 pubs.append({
@@ -397,7 +456,8 @@ pubs.append({
     'venue': 'emnlp',
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2109.06827',
-    'code': 'https://github.com/uditarora/ood-text-emnlp'
+    'code': 'https://github.com/uditarora/ood-text-emnlp',
+    'selected': '3',
   })
 
 pubs.append({
@@ -408,6 +468,7 @@ pubs.append({
     'venue': 'acl',
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2108.13684',
+    'selected': '2',
   })
 
 pubs.append({
@@ -419,6 +480,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2107.00753',
     'code': 'https://github.com/joshinh/investigation-cad',
+    'selected': '1',
   })
 
 pubs.append({
@@ -442,6 +504,7 @@ pubs.append({
     'pdf': 'https://openreview.net/pdf?id=RovX-uQ1Hua',
     'code': 'https://github.com/yzpang/gold-off-policy-text-gen-iclr21',
     'talk': 'docs/presentation/gold-slides.pdf',
+    'selected': '0',
   })
 
 pubs.append({
@@ -455,6 +518,7 @@ pubs.append({
     'page': '',
     'pdf': 'https://arxiv.org/abs/2007.06778',
     'code': 'https://github.com/lifu-tu/Study-NLP-Robustness',
+    'selected': '0',
   })
 
 pubs.append({
@@ -467,6 +531,7 @@ pubs.append({
     'pdf': 'https://arxiv.org/abs/2005.03754',
     'code': 'https://github.com/esdurmus/feqa',
     'talk': 'https://slideslive.com/38929353/feqa-a-question-answering-evaluation-framework-for-faithfulness-assessment-in-abstractive-summarization',
+    'selected': '1',
   })
 
 pubs.append({
@@ -493,6 +558,7 @@ pubs.append({
     'pdf': 'https://arxiv.org/pdf/1908.10763.pdf',
     'code': 'https://github.com/hhexiy/debiased',
     'poster': 'docs/presentation/2019_emnlp_deeplo_poster.pdf',
+    'selected': '1',
   })
 
 pubs.append({
@@ -506,6 +572,7 @@ pubs.append({
     'pdf': 'https://arxiv.org/pdf/1904.06828.pdf',
     'code': 'https://github.com/hhexiy/pungen',
     'codalab': 'https://worksheets.codalab.org/worksheets/0x5a7d0fe35b144ad68998d74891a31ed6',
+    'selected': '1',
   })
 
 pubs.append({
@@ -541,6 +608,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/1808.09637',
     'project': 'https://stanfordnlp.github.io/cocoa/',
+    'selected': '1',
   })
 
 pubs.append({
@@ -553,6 +621,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/1808.07036.pdf',
     'project': 'http://quac.ai',
+    'selected': '1',
   })
 
 pubs.append({
@@ -564,6 +633,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/1805.04623.pdf',
     'code': 'https://github.com/urvashik/lm-context-analysis',
+    'selected': '1',
   })
 
 pubs.append({
@@ -575,6 +645,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/1804.06437.pdf',
     'code': 'https://github.com/lijuncen/Sentiment-and-Style-Transfer',
+    'selected': '1',
   })
 
 pubs.append({
@@ -586,6 +657,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/1704.07130.pdf',
     'project': 'https://stanfordnlp.github.io/cocoa/',
+    'selected': '1',
   })
 
 pubs.append({
@@ -610,6 +682,7 @@ pubs.append({
     'pdf': 'docs/papers/2016_icml_opponent.pdf',
     'code': 'https://github.com/hhexiy/opponent',
     'data': 'data/qb_data.tgz',
+    'selected': '1',
   })
 
 pubs.append({
@@ -621,6 +694,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'docs/papers/2016_naacl_interpretese.pdf',
     'code': 'https://github.com/hhexiy/interpretese',
+    'selected': '3',
   })
 
 pubs.append({
@@ -664,6 +738,7 @@ pubs.append({
     'pdf': 'docs/papers/2015_simtrans_rewrite.pdf',
     'talk': 'docs/presentation/emnlp15_slides.pdf',
     'code': 'code/rewriter.tgz',
+    'selected': '2',
   })
 
 pubs.append({
@@ -718,6 +793,7 @@ pubs.append({
     'pdf': 'docs/papers/ilp-bb.pdf',
     'poster': 'docs/presentation/ilp-bb-poster-nips2014.pdf',
     'code': 'https://github.com/hhexiy/scip-dagger',
+    'selected': '1',
   })
 
 pubs.append({
@@ -729,6 +805,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'docs/papers/2014_simtrans.pdf',
     'talk': 'https://youtu.be/hVoxXO3F468',
+    'selected': '2',
   })
 
 pubs.append({
@@ -741,6 +818,7 @@ pubs.append({
     'pdf': 'docs/papers/depFeat.pdf',
     'talk': 'docs/presentation/depFeat_slides.pdf',
     'talk': 'docs/presentation/depFeat_screencast.mp4',
+    'selected': '1',
   })
 
 pubs.append({
@@ -752,6 +830,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'docs/papers/dynafea_im.pdf',
     'poster': 'docs/presentation/dynafea_im_poster.pdf',
+    'selected': '2',
   })
 
 pubs.append({
@@ -787,6 +866,7 @@ pubs.append({
     'pdf': 'docs/papers/srgpr.pdf',
     'talk': 'docs/presentation/srgpr_slides.pdf',
     'code': 'code/matlab_srgpr.zip',
+    'selected': '1',
   })
 
 pubs.append({
