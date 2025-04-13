@@ -1,14 +1,78 @@
 pubs = []
 
+# 0: super excited recently
+# 1: excited
+# 2: relevant but less excited
+
+
 pubs.append({
-    'bib': 'wen2024language',
-    'title': "Language Models Learn to Mislead Humans via RLHF",
-    'author': ("Jiaxin Wen", "Ruiqi Zhong", "Akbir Khan", "Ethan Perez", "Jacob Steinhardt", "Minlie Huang", "Sam Boman", "me", "Shi Feng"),
+    'bib': 'zhang2025reasoning',
+    'title': "Reasoning Models Know When They're Right: Probing Hidden States for Self-Verification",
+    'author': ("Anqi Zhang", "Yulin Chen", "Jane Pan", "Chen Zhao", "Aurojit Panda", "Jinyang Li", "me"),
+    'year': '2025',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'pdf': 'https://arxiv.org/abs/2504.05419v1',
+    'selected': '0',
+  })
+
+pubs.append({
+    'bib': 'pan2025when',
+    'title': "When Benchmarks Talk: Re-Evaluating Code LLMs with Interactive Feedback",
+    'author': ("Jane Pan", "Ryan Shar", "Jacob Pfau", "Ameet Talwalkar", "me", "Valerie Chen"),
+    'equal': ("Jane Pan", "Ryan Shar"),
+    'year': '2025',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'pdf': 'https://arxiv.org/abs/2502.18413',
+    'selected': '2',
+  })
+
+pubs.append({
+    'bib': 'padmakumar2024beyond',
+    'title': "Beyond the Binary: Capturing Diverse Preferences With Reward Regularization",
+    'author': ("Vishakh Padmakumar", "Chuanyang Jin", "Hannah Rose Kirk", "me"),
+    'equal': ("Vishakh Padmakumar", "Chuanyang Jin", "Hannah Rose Kirk"),
     'year': '2024',
     'venue': 'arxiv',
     'type': 'arxiv',
-    'pdf': 'https://arxiv.org/pdf/2409.12822',
+    'pdf': 'https://arxiv.org/pdf/2412.03822',
+    'selected': '2',
+  })
+
+pubs.append({
+    'bib': 'saparov2025search',
+    'title': "Transformers Struggle to Learn to Search",
+    'author': ('abu', "Srushti Pawar", "Shreyas Pimpalgaonkar", 'nitish', 'richard', 'vishakh', 'Seyed Mehran Kazemi', 'Najoung Kim', 'me'),
+    'equal': ('Najoung Kim', 'me'),
+    'year': '2025',
+    'type': 'conference',
+    'venue': 'iclr',
+    'pdf': 'https://arxiv.org/pdf/2412.04703',
     'selected': '1',
+  })
+
+pubs.append({
+    'bib': 'wen2025language',
+    'title': "Adaptive Deployment of Untrusted LLMs Reduces Distributed Threats",
+    'author': ("Jiaxin Wen", "Vivek Hebbar", "Caleb Larson", "Aryan Bhatt", "Ansh Radhakrishnan", "Mrinank Sharma", "Henry Sleight", "Shi Feng", "me", "Ethan Perez", "Buck Shlegeris", "Akbir Khan"),
+    'equal': ("Jiaxin Wen", "Vivek Hebbar", "Caleb Larson"),
+    'year': '2025',
+    'venue': 'iclr',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/pdf/2411.17693',
+    'selected': '2',
+  })
+
+pubs.append({
+    'bib': 'wen2025language',
+    'title': "Language Models Learn to Mislead Humans via RLHF",
+    'author': ("Jiaxin Wen", "Ruiqi Zhong", "Akbir Khan", "Ethan Perez", "Jacob Steinhardt", "Minlie Huang", "Sam Boman", "me", "Shi Feng"),
+    'year': '2025',
+    'venue': 'iclr',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/pdf/2409.12822',
+    'selected': '0',
   })
 
 pubs.append({
@@ -19,7 +83,7 @@ pubs.append({
     'venue': 'arxiv',
     'type': 'arxiv',
     'pdf': 'https://arxiv.org/pdf/2407.04549',
-    'selected': '3',
+    'selected': '2',
   })
 
 pubs.append({
@@ -63,7 +127,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2404.16019',
     'award': ('Oral', ''),
-    'selected': '1',
+    'selected': '2',
   })
 
 pubs.append({
@@ -172,7 +236,7 @@ pubs.append({
     'venue': 'emnlp',
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2310.18168',
-    'selected': '1',
+    'selected': '0',
   })
 
 pubs.append({
@@ -255,7 +319,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2211.08714',
     'talk': 'docs/presentation/reward-gaming-slides.pdf',
-    'selected': '2',
+    'selected': '1',
   })
 
 pubs.append({
@@ -267,7 +331,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2303.04562.pdf',
     'code': 'https://github.com/vishakhpk/iter-extrapolation',
-    'selected': '2',
+    'selected': '1',
   })
 
 pubs.append({
@@ -342,7 +406,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://aclanthology.org/2022.emnlp-main.816.pdf',
     'code': 'https://github.com/COFE2022/CoFE',
-    'selected': '3',
+    'selected': '2',
   })
 
 pubs.append({
@@ -353,7 +417,7 @@ pubs.append({
     'type': 'conference',
     'venue': 'emnlp findings',
     'pdf': 'https://arxiv.org/abs/2209.07661',
-    'selected': '3',
+    'selected': '2',
   })
 
 pubs.append({
@@ -376,7 +440,7 @@ pubs.append({
     'page': '',
     'type': 'journal',
     'pdf': 'https://arxiv.org/abs/2210.01302',
-    'selected': '3',
+    'selected': '2',
   })
 
 pubs.append({
@@ -398,7 +462,6 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/pdf/2112.08608.pdf',
     'code': 'https://github.com/nyu-mll/quality',
-    'selected': '2',
   })
 
 pubs.append({
@@ -434,7 +497,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2110.07814',
     'code': 'https://github.com/yandachen/In-context-Tuning',
-    'selected': '1',
+    'selected': '0',
   })
 
 pubs.append({
@@ -457,7 +520,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2109.06827',
     'code': 'https://github.com/uditarora/ood-text-emnlp',
-    'selected': '3',
+    'selected': '2',
   })
 
 pubs.append({
@@ -480,7 +543,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2107.00753',
     'code': 'https://github.com/joshinh/investigation-cad',
-    'selected': '1',
+    'selected': '0',
   })
 
 pubs.append({
@@ -558,7 +621,7 @@ pubs.append({
     'pdf': 'https://arxiv.org/pdf/1908.10763.pdf',
     'code': 'https://github.com/hhexiy/debiased',
     'poster': 'docs/presentation/2019_emnlp_deeplo_poster.pdf',
-    'selected': '1',
+    'selected': '0',
   })
 
 pubs.append({
@@ -830,7 +893,7 @@ pubs.append({
     'type': 'conference',
     'pdf': 'docs/papers/dynafea_im.pdf',
     'poster': 'docs/presentation/dynafea_im_poster.pdf',
-    'selected': '2',
+    'selected': '1',
   })
 
 pubs.append({
