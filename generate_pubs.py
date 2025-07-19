@@ -139,22 +139,36 @@ def main():
     parser = argparse.ArgumentParser(description='Generate HTML files for publications.')
     parser.add_argument('--selected', type=int, help='Only process selected publications and output to -selected files')
     parser.add_argument('--no-year', action='store_true', help='Do not print year')
+    parser.add_argument('--bibtex', action='store_true', help='Generate a pubs.bib file')
     args = parser.parse_args()
 
-    curr_year = None
     sorted_pubs = sorted(pubs, key=lambda x: x['year'], reverse=True)
+
+    if args.bibtex:
+        bib_text = ''
+        for pub in sorted_pubs:
+            if 'bib' in pub:
+                if pub['type'] == 'arxiv' and 'index' not in pub:
+                     pub['index'] = re.search(r'(\d+\.\d+)', pub['pdf']).group(1)
+                bib_text += gen_bib(pub) + '\n\n'
+        with open('pubs.bib', 'w') as f:
+            f.write(bib_text)
+        return
+
+    curr_year = None
+    offset = 0 if args.selected is None else 1000
     for i, pub in enumerate(sorted_pubs):
         if args.selected is not None and (pub.get('selected') is None or int(pub.get('selected')) > args.selected):
             continue
 
-        if pub['type'] == 'arxiv':
+        if pub['type'] == 'arxiv' and 'index' not in pub:
             pub['index'] = re.search(r'(\d+\.\d+)', pub['pdf']).group(1)
 
         if args.no_year:
             if curr_year is None:
                 fout.write('<ul>\n')
                 curr_year = 1
-            fout.write('<li>{title}<br>{author} {venue} {award} {resource} </li>\n'.format(title=gen_title(pub), author=gen_author(pub), venue=gen_venue(pub), award=gen_award(pub), resource=gen_resource(i, pub)))
+            fout.write('<li>{title}<br>{author} {venue} {award} {resource} </li>\n'.format(title=gen_title(pub), author=gen_author(pub), venue=gen_venue(pub), award=gen_award(pub), resource=gen_resource(i + offset, pub)))
         else:
             if pub['year'] != curr_year:
                 if curr_year != None:

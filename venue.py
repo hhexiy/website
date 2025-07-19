@@ -1,4 +1,5 @@
 venue = {
+    'colm': ('Conference on Language Models', 'COLM'),
     'naacl': ('North American Chapter of the Association for Computational Linguistics', 'NAACL'),
     'iclr': ('International Conference on Learning Representations', 'ICLR'),
     'acl': ('Association for Computational Linguistics', 'ACL'),

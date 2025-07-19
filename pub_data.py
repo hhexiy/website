@@ -4,14 +4,56 @@ pubs = []
 # 1: excited
 # 2: relevant but less excited
 
+pubs.append({
+    'bib': 'yueh-han2025monitoring',
+    'title': 'Monitoring Decomposition Attacks in LLMs with Lightweight Sequential Monitors',
+    'author': ('Chen Yueh-Han', 'Nitish Joshi', 'Yulin Chen', 'Maksym Andriushchenko', 'Rico Angell', 'He He'),
+    'equal': ('Rico Angell', 'He He'),
+    'year': '2025',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'pdf': 'https://arxiv.org/abs/2506.10949',
+})
+
+pubs.append({
+    'bib': 'wen2025unsupervised',
+    'title': 'Unsupervised Elicitation of Language Models',
+    'author': ('Jiaxin Wen', 'Zachary Ankner', 'Arushi Somani', 'Peter Hase', 'Samuel Marks', 'Jacob Goldman-Wetzler', 'Linda Petrini', 'Henry Sleight', 'Collin Burns', 'He He', 'Shi Feng', 'Ethan Perez', 'Jan Leike'),
+    'year': '2025',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'pdf': 'https://arxiv.org/abs/2506.10139',
+})
+
+pubs.append({
+    'bib': 'wen2025predicting',
+    'title': 'Predicting Empirical AI Research Outcomes with Language Models',
+    'author': ('Jiaxin Wen', 'Chenglei Si', 'Yueh-han Chen', 'He He', 'Shi Feng'),
+    'year': '2025',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'pdf': 'https://arxiv.org/abs/2506.00794',
+    'selected': '0',
+})
+
+pubs.append({
+    'bib': 'padmakumar2025beyond',
+    'title': 'Beyond Memorization: Mapping the Originality-Quality Frontier of Language Models',
+    'author': ('Vishakh Padmakumar', 'Chen Yueh-Han', 'Jane Pan', 'Valerie Chen', 'He He'),
+    'year': '2025',
+    'venue': 'arxiv',
+    'type': 'arxiv',
+    'pdf': 'https://arxiv.org/abs/2504.09389',
+})
+
 
 pubs.append({
     'bib': 'zhang2025reasoning',
     'title': "Reasoning Models Know When They're Right: Probing Hidden States for Self-Verification",
     'author': ("Anqi Zhang", "Yulin Chen", "Jane Pan", "Chen Zhao", "Aurojit Panda", "Jinyang Li", "me"),
     'year': '2025',
-    'venue': 'arxiv',
-    'type': 'arxiv',
+    'venue': 'colm',
+    'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2504.05419v1',
     'selected': '0',
   })
@@ -22,8 +64,8 @@ pubs.append({
     'author': ("Jane Pan", "Ryan Shar", "Jacob Pfau", "Ameet Talwalkar", "me", "Valerie Chen"),
     'equal': ("Jane Pan", "Ryan Shar"),
     'year': '2025',
-    'venue': 'arxiv',
-    'type': 'arxiv',
+    'venue': 'acl findings',
+    'type': 'conference',
     'pdf': 'https://arxiv.org/abs/2502.18413',
     'selected': '2',
   })
@@ -120,7 +162,7 @@ pubs.append({
 
 pubs.append({
     'bib': 'kirk2024prism',
-    'title': "The {PRISM} Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models",
+    'title': "The {PRISM} Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models",
     'author': ('Hannah Rose Kirk', 'Alexander Whitefield', 'Paul Röttger', 'Andrew Bean', 'Katerina Margatina', 'Juan Ciro', 'Rafael Mosquera', 'Max Bartolo', 'Adina Williams', 'me', 'Bertie Vidgen', 'Scott A Hale'),
     'year': '2024',
     'venue': 'nips',
@@ -612,7 +654,7 @@ pubs.append({
 
 pubs.append({
     'bib': 'he2019unlearn',
-    'title': 'Unlearn Dataset Bias for Natural Language Inference by Fitting the Residual',
+    'title': 'Unlearn Dataset Bias in Natural Language Inference by Fitting the Residual',
     'author': ('me', 'sheng', 'haohan'),
     'year': '2019',
     'venue': 'emnlp',
@@ -943,4 +985,5 @@ pubs.append({
     'poster': 'docs/presentation/rcsvm_poster.pdf',
     'code': 'code/rcsvm_matlab.zip',
   })
+
 
